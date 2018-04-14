@@ -1,0 +1,76 @@
+.buyer-wx-condition{
+	height: 50px;
+	background-color: #fff;
+	margin-top: 40px;
+}
+.buyer-wx-condition-left{
+	margin-left: 20px;
+	font: 400 14px/50px "微软雅黑";
+	color: #666666;
+}
+.buyer-wx-condition select{
+	width: 120px;
+	height: 30px;
+	padding-left: 10px;
+}
+.buyer-wx-condition-right-a1{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    background-color: #00A1FF;
+    color: #FFFFFF;
+    text-align: center;
+    float: right;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.buyer-wx-condition-right-a1:hover,.buyer-wx-condition-right-a1:focus{
+	color: #FFFFFF;
+}
+.buyer-wx-title{
+	color: #666;
+	font:400 14px/50px "微软雅黑" ;
+	background-color: #fff;
+	text-align: center;
+	border-top: 1px solid #F1F1F1;
+	height: 51px;	
+}
+.buyer-wx-content{
+	color: #666;
+	font:400 14px/50px "微软雅黑" ;
+	background-color: #fff;
+	text-align: center;
+	border-top: 1px solid #F1F1F1;
+	height: 51px;
+	
+}
+.buyer-writing-platform-content-a-1{
+	width: 80px;
+    height: 30px;
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px solid #00A1FF;
+    color: #00A1FF;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10px;
+
+    font-size: 14px;
+}
+.buyer-writing-platform-content-a-2{
+	width: 80px;
+    height: 30px;
+    display: inline-block;
+    background-color: #00A1FF;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10px;
+
+    font-size: 14px;
+}
+.buyer-writing-platform-content-a-2:hover,.buyer-writing-platform-content-a-2:focus{
+	color: #FFF;
+}

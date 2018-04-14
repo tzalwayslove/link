@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>孟婆卖家后台-订单管理</title>
+		<link href="css/backer.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-1.11.1.js"	></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<link rel="stylesheet" href="css/bootstrap.css" />	
+		<link rel="stylesheet" href="css/backer-booking.css" />		
+		
+	</head>
+	<body>
+
+						<!--头部开始-->
+			<div class="backer">
+				<img src="img/logo.png">
+				<div class="backer-rightbox">
+					<a class="backer-buyer" href="我是买家后台-账户概述.html">我是买家</a>
+					<a class="backer-soilder" href="我是卖家后台-账户概述.html">我是卖家</a>
+					<a href="#" class="backer-car">10</a>
+					<a href="#" class="backer-message">10</a>
+					<div class="backer-ball"></div>
+				</div>				
+			</div>
+
+						<!--头部结束-->
+						<!--选项卡开始-->	
+        	<aside class="left-side col-md-2" style="padding: 20px 0;">
+                <section class="sidebar">
+                    <ul class="sidebar-menu">
+                        <li>
+                            <a href="我是卖家后台-账户概述.html">
+                                <i class="glyphicon glyphicon-user"></i> 账户概述
+                            </a>
+                        </li>
+                        <li>
+                            <a href="我是卖家后台-订单管理.html" class="sidebar-menu-active">
+                                <i class="glyphicon glyphicon-list-alt"></i> 订单管理
+                            </a>
+                        </li>                  
+                        <li>
+                            <a href="我是卖家后台-出售友链.html" >
+                                <i class="glyphicon glyphicon-link"></i> 出售友链
+                            </a>
+                        </li>                        
+
+                        <li>
+                            <a href="我是卖家后台-友情套餐.html">
+                                <i class="glyphicon glyphicon-gift"></i> 友链套餐
+                            </a>
+                        </li>
+                        <li>
+                            <a href="我是卖家后台-任性包年.html">
+                                <i class="glyphicon glyphicon-briefcase"></i> 任性包年
+                            </a>
+                        </li>
+                        <li>
+                            <a href="我是卖家后台-免费换链.html">
+                                <i class="glyphicon glyphicon-usd"></i> 免费换链
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="我是卖家后台-写作任务.html">
+                                <i class="glyphicon glyphicon-pencil"></i> 写作任务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="我是卖家后台-任务大厅.html">
+                                <i class="glyphicon glyphicon-folder-open"></i> 任务大厅
+                            </a>
+                        </li>  
+                        <li>
+                            <a href="我是卖家后台-微世界.html">
+                                <i class="glyphicon glyphicon-globe" style="margin-left: -14px;"></i> 微世界
+                            </a>
+                        </li> 
+                        <li>
+                            <a href="我是卖家后台-微信代运营.html">
+                                <i class="glyphicon glyphicon-compressed" style="margin-left: 34px;"></i> 微世界代运营
+                            </a>
+                        </li>                          
+                    </ul>
+                </section>
+            </aside>
+            			<!--选项卡结束-->
+            			
+            			
+             			<!--内容开始-->           			
+            <aside class="right-side col-md-10">
+            	<div class="col-md-12 booking-content-top">
+					<span class="booking-content-top-spanone">状态：</span>
+ 						<input type="text" list="itemlist" name="" id="" placeholder="请点击选择" class="itemlist-bookselect"/>
+ 						<datalist id="itemlist">
+						    <option>item1</option>
+						    <option>item2</option>
+						</datalist>	
+					<span class="booking-content-top-spanone">下单时间：</span>	
+					<input type="text" name="" id="" class="itemlist-bookselect"/>
+					<div class="booking-divider"></div>
+					<input type="text" name="" id="" class="itemlist-bookselect"/>
+					<div class="itemlist-booktext-right">
+						<input type="text" name="" id="" class="itemlist-booktext" placeholder="请输入网站名称/域名"/>		
+						<a href="#">搜索</a>
+					</div>				
+            	</div>
+             	<div class="col-md-12 booking-content-middle">  
+             		<span>全部</span>
+             		<i>10个</i>
+             		<span>，待结算</span>
+             		<i>10个</i> 
+             		<span>,服务中</span>
+             		<i>10个</i> 
+             		<span>，故障中</span>
+             		<i>10个</i>  
+             		<span>，关闭订单</span>
+             		<i>10个</i>
+             		<span>，已拒单</span>
+             		<i>10个</i> 
+             		<span>，将到期</span>
+             		<i>10个</i> 
+             		<span>，待上链</span>
+             		<i>10个</i>      
+              		<span>，服务完成</span>
+             		<i>10个</i>              		
+             	</div>
+             	<section class="col-md-12 booking-content-word">  
+             		<div class="row">
+             			<div class="booking-content-word-title">
+             				<span class="booking-content-word-title-1">订单号</span>
+             				<span class="booking-content-word-title-2">网站名</span>
+             				<span class="booking-content-word-title-3">我的链接</span>
+             				<span class="booking-content-word-title-4">购买周期</span>
+             				<span class="booking-content-word-title-5">金额</span>
+             				
+             				<span class="booking-content-word-title-7">状态</span>
+             				<span class="booking-content-word-title-8">操作</span>
+             			</div>
+             			<div class="booking-content-word-content">
+             				<div class="booking-content-word-content-one">
+             					20170807020717Esjq
+             				</div>
+             				<div class="booking-content-word-content-two">
+             					松籽科技
+             				</div> 
+             				<div class="booking-content-word-content-three">
+             					<div class="booking-content-word-content-three-top">
+             						松籽科技有限公司
+             					</div>	
+             					<div class="booking-content-word-content-three-bottom">
+             						www.sz25.net
+             					</div>                     					
+             				</div>  
+            				<div class="booking-content-word-content-four">
+             					1个月
+             				</div>     
+            				<div class="booking-content-word-content-five">
+             					￥3.00
+             				</div>      
+            				<div class="booking-content-word-content-seven">
+             					待接单
+             				</div>  
+            				<div class="booking-content-word-content-right">
+             					<a href="我是卖家后台-订单管理-查看详情.html" class="booking-content-word-content-right-top" >查看详情</a>
+             					<a href="#" class="booking-content-word-content-right-top" >接单</a>             					
+             					<a href="#" class="booking-content-word-content-right-top" >拒单</a>             					
+             				</div>              				
+             			</div>
+             			<div class="booking-content-word-twocontent ">	
+             				<div class="booking-content-word-twocontent-1">
+             					20170807020717Esjq
+             				</div>
+             				<div class="booking-content-word-twocontent-2">
+             					松籽科技
+             				</div> 
+             				<div class="booking-content-word-twocontent-3">
+             					<div class="booking-content-word-twocontent-3-top">
+             						松籽科技有限公司
+             					</div>	
+             					<div class="booking-content-word-twocontent-3-bottom">
+             						www.sz25.net
+             					</div>                     					
+             				</div> 
+             				<div class="booking-content-word-twocontent-4">
+             					1个月
+             				</div>   
+             				<div class="booking-content-word-twocontent-5">
+             					￥3.00
+             				</div>  
+            				
+             				<div class="booking-content-word-twocontent-7">
+             					待结算
+             				</div>   
+             				<div class="booking-content-word-twocontent-8">
+             					<a href="我是卖家后台-订单管理-查看详情.html" class="booking-content-word-content-right-top" >查看详情</a>             
+             				</div>              				
+             			</div>	
+             			<div class="booking-content-word-twocontent ">	
+             				<div class="booking-content-word-twocontent-1">
+             					20170807020717Esjq
+             				</div>
+             				<div class="booking-content-word-twocontent-2">
+             					松籽科技
+             				</div> 
+             				<div class="booking-content-word-twocontent-3">
+             					<div class="booking-content-word-twocontent-3-top">
+             						松籽科技有限公司
+             					</div>	
+             					<div class="booking-content-word-twocontent-3-bottom">
+             						www.sz25.net
+             					</div>                     					
+             				</div> 
+             				<div class="booking-content-word-twocontent-4">
+             					1个月
+             				</div>   
+             				<div class="booking-content-word-twocontent-5">
+             					￥3.00
+             				</div>  
+            				
+             				<div class="booking-content-word-twocontent-7">
+             					待到期
+             				</div>   
+             				<div class="booking-content-word-twocontent-8">
+             					<a href="我是卖家后台-订单管理-查看详情.html" class="booking-content-word-content-right-top" >查看详情</a>             
+             				</div>              				
+             			</div>
+             			<div class="booking-content-word-twocontent ">	
+             				<div class="booking-content-word-twocontent-1">
+             					20170807020717Esjq
+             				</div>
+             				<div class="booking-content-word-twocontent-2">
+             					松籽科技
+             				</div> 
+             				<div class="booking-content-word-twocontent-3">
+             					<div class="booking-content-word-twocontent-3-top">
+             						松籽科技有限公司
+             					</div>	
+             					<div class="booking-content-word-twocontent-3-bottom">
+             						www.sz25.net
+             					</div>                     					
+             				</div> 
+             				<div class="booking-content-word-twocontent-4">
+             					1个月
+             				</div>   
+             				<div class="booking-content-word-twocontent-5">
+             					￥3.00
+             				</div>  
+            				
+             				<div class="booking-content-word-twocontent-7">
+             					待上链
+             				</div>   
+             				<div class="booking-content-word-twocontent-8">
+             					<a href="我是卖家后台-订单管理-查看详情.html" class="booking-content-word-content-right-top" >查看详情</a>             
+             				</div>              				
+             			</div> 
+             			<div class="booking-content-word-twocontent ">	
+             				<div class="booking-content-word-twocontent-1">
+             					20170807020717Esjq
+             				</div>
+             				<div class="booking-content-word-twocontent-2">
+             					松籽科技
+             				</div> 
+             				<div class="booking-content-word-twocontent-3">
+             					<div class="booking-content-word-twocontent-3-top">
+             						松籽科技有限公司
+             					</div>	
+             					<div class="booking-content-word-twocontent-3-bottom">
+             						www.sz25.net
+             					</div>                     					
+             				</div> 
+             				<div class="booking-content-word-twocontent-4">
+             					1个月
+             				</div>   
+             				<div class="booking-content-word-twocontent-5">
+             					￥3.00
+             				</div>  
+            				
+             				<div class="booking-content-word-twocontent-7">
+             					服务中
+             				</div>   
+             				<div class="booking-content-word-twocontent-8">
+             					<a href="我是卖家后台-订单管理-查看详情.html" class="booking-content-word-content-right-top" >查看详情</a>             
+             				</div>              				
+             			</div> 
+             			<div class="booking-content-word-twocontent ">	
+             				<div class="booking-content-word-twocontent-1">
+             					20170807020717Esjq
+             				</div>
+             				<div class="booking-content-word-twocontent-2">
+             					松籽科技
+             				</div> 
+             				<div class="booking-content-word-twocontent-3">
+             					<div class="booking-content-word-twocontent-3-top">
+             						松籽科技有限公司
+             					</div>	
+             					<div class="booking-content-word-twocontent-3-bottom">
+             						www.sz25.net
+             					</div>                     					
+             				</div> 
+             				<div class="booking-content-word-twocontent-4">
+             					1个月
+             				</div>   
+             				<div class="booking-content-word-twocontent-5">
+             					￥3.00
+             				</div>  
+            				
+             				<div class="booking-content-word-twocontent-7">
+             					服务完成
+             				</div>   
+             				<div class="booking-content-word-twocontent-8">
+             					<a href="我是卖家后台-订单管理-查看详情.html" class="booking-content-word-content-right-top" >查看详情</a>             
+             				</div>              				
+             			</div>
+             			<div class="booking-content-word-threecontent">
+             				<div class="booking-content-word-threecontent-1">
+             					20170807020717Esjq
+             				</div>    
+              				<div class="booking-content-word-threecontent-2">
+             					松籽科技
+             				</div> 
+              				<div class="booking-content-word-threecontent-3">
+             					<div class="booking-content-word-threecontent-3-top">
+             						松籽科技有限公司
+             					</div>	
+             					<div class="booking-content-word-threecontent-3-bottom">
+             						www.sz25.net
+             					</div>                     					
+             				</div> 
+             				<div class="booking-content-word-threecontent-4">
+             					1个月
+             				</div>   
+             				<div class="booking-content-word-threecontent-5">
+             					￥3.00
+             				</div>  
+             				<div class="booking-content-word-threecontent-7">
+             					故障中
+             				</div>  
+             				<div class="booking-content-word-threecontent-8">
+             					<a href="我是卖家后台-订单管理-查看详情.html" class="booking-content-word-content-right-top" >查看详情</a> 
+             					<a href="#" class="booking-content-word-content-right-top-color" >解决故障</a>
+             				</div>              				
+             			</div>
+             			
+             			
+             			<div class="booking-content-word-twocontent ">	
+             				<div class="booking-content-word-twocontent-1">
+             					20170807020717Esjq
+             				</div>
+             				<div class="booking-content-word-twocontent-2">
+             					松籽科技
+             				</div> 
+             				<div class="booking-content-word-twocontent-3">
+             					<div class="booking-content-word-twocontent-3-top">
+             						松籽科技有限公司
+             					</div>	
+             					<div class="booking-content-word-twocontent-3-bottom">
+             						www.sz25.net
+             					</div>                     					
+             				</div> 
+             				<div class="booking-content-word-twocontent-4">
+             					1个月
+             				</div>   
+             				<div class="booking-content-word-twocontent-5">
+             					￥3.00
+             				</div>  
+            				
+             				<div class="booking-content-word-twocontent-7">
+             					已经拒单
+             				</div>   
+             				<div class="booking-content-word-twocontent-8">
+             					<a href="我是卖家后台-订单管理-查看详情.html" class="booking-content-word-content-right-top" >查看详情</a>             
+             				</div>              				
+             			</div>             			
+             		</div>
+            	</section>	
+            </aside>
+            			<!--内容结束-->    
+
+	</body>
+</html>

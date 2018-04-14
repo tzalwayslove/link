@@ -1,0 +1,279 @@
+.booking-content-top{
+	background-color: #fff;
+	height: 50px;
+	margin-top: 40px;
+	font:400 14px/50px "微软雅黑";
+	color: #666666;
+}
+.booking-content-top-spanone{
+	padding:0 10px;
+}
+.itemlist-bookselect{
+	width: 100px;
+	height: 30px;
+}
+.booking-divider{
+	display: inline-block;
+	width: 18px;
+	background-color: #666666;
+	height: 1px;
+}
+.itemlist-booktext{
+	width: 180px;
+	height: 30px;
+	border: 1px solid #00A1FF;
+	padding-left: 10px;
+	border-radius: 16px 0 0 16px;
+}
+.itemlist-booktext-right{
+	float: right;
+}
+.itemlist-booktext-right a{
+	height: 30px;
+	width: 50px;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #00A1FF;
+	display: inline-block;
+	font: 400 14px/30px "微软雅黑";
+	margin-left: -10px;
+	border-radius: 0 16px 16px 0;	
+}
+.booking-content-middle{
+	font: 400 14px/30px "微软雅黑";
+	color: #aaaaaa;
+	height: 30px;
+}
+.booking-content-middle i{
+	color: #e60000;
+	font: 400 14px/30px "微软雅黑";	
+	font-style: normal;
+}
+.booking-content-word{
+	background: #FFFFFF;
+}
+.booking-content-word-title{
+	height: 55px;
+	border: 1px solid #f1f1f1;
+	font: 400 14px/54px "微软雅黑";
+	color: #666666;
+}
+.booking-content-word-title-1{
+	padding-left: 10px;
+	float: left;	
+}
+.booking-content-word-title-2{
+	padding-left: 180px;
+	float: left;		
+}
+.booking-content-word-title-3{
+	padding-left: 130px;
+	float: left;		
+}
+.booking-content-word-title-4{
+	padding-left: 120px;
+	float: left;		
+}
+.booking-content-word-title-5{
+	padding-left: 120px;
+	float: left;		
+}
+.booking-content-word-title-6{
+	padding-left: 160px;
+	float: left;		
+}
+.booking-content-word-title-7{
+	padding-left: 160px;
+	float: left;		
+}
+.booking-content-word-title-8{
+	margin-right: 120px;
+	float: right;
+}
+.booking-content-word-content{
+	height: 128px;	
+	border: 1px solid #F1F1F1;
+	color: #666;
+}
+.booking-content-word-content-one{
+	font: 400 14px/126px "微软雅黑";
+	float: left;
+	margin-left: 10px;
+}
+.booking-content-word-content-two{
+	color: #00A1FF;
+	font: 400 14px/126px "微软雅黑";
+	margin-left: 74px;
+	float: left;
+}
+.booking-content-word-content-three{
+	margin-left: 94px;
+	float: left;
+}
+.booking-content-word-content-three-top{
+	margin-top: 46px;
+}
+.booking-content-word-content-three-bottom{
+	color: #58c1ff;
+	padding-left: 10px;
+}
+.booking-content-word-content-four{
+	float: left;
+	margin-left: 100px;
+	margin-top: 50px;
+}
+.booking-content-word-content-five{
+	float: left;
+	margin-left: 130px;
+	margin-top: 50px;
+}
+.booking-content-word-content-six{
+	margin-left: 94px;
+	float: left;
+}
+.booking-content-word-content-six-top{
+	margin-top: 46px;
+}
+.booking-content-word-content-seven{
+	float: left;
+	margin-top: 50px;
+	margin-left: 80px;
+}
+.booking-content-word-content-right{
+	float: right;
+	margin-right: 90px;	
+}
+.booking-content-word-content-right-top{
+	display: block;
+	height: 30px;
+	width: 80px;
+	border: 1px solid #00A1FF;
+	border-radius:10px;
+	margin-top: 10px;
+	color: #00A1FF;
+	text-align: center;	
+}
+.booking-content-word-content-right-top:hover{
+	background-color: #00a1ff;
+	color: #FFFFFF;
+}
+.booking-content-word-twocontent{
+	height: 50px;
+	border-bottom: 1px solid #F1F1F1;
+	color: #666;
+}
+.booking-content-word-twocontent-1{
+	font: 400 14px/50px "微软雅黑";
+	float: left;
+	margin-left: 10px;
+}
+.booking-content-word-twocontent-2{
+	font: 400 14px/50px "微软雅黑";
+	float: left;
+	margin-left: 74px;
+	color: #00A1FF;
+}
+.booking-content-word-twocontent-3{
+	float: left;
+	margin-left: 94px;
+}
+.booking-content-word-twocontent-3-top{
+	margin-top: 10px;
+}
+.booking-content-word-twocontent-3-bottom{
+	color: #58c1ff;
+	padding-left: 10px;
+}
+.booking-content-word-twocontent-4{
+	float: left;
+	margin-left: 100px;
+	margin-top: 15px;
+}
+.booking-content-word-twocontent-5{
+	float: left;
+	margin-left: 130px;
+	margin-top: 15px;
+}
+.booking-content-word-twocontent-6{
+	margin-left: 94px;
+	float: left;
+}
+.booking-content-word-twocontent-6-top{
+	margin-top: 6px;
+}
+.booking-content-word-twocontent-7{
+	float: left;
+	margin-top: 15px;
+	margin-left: 80px;	
+}
+.booking-content-word-twocontent-8{
+	float: right;
+	margin-right: 90px;		
+}
+.booking-content-word-threecontent{
+	height: 90px;
+	border-bottom: 1px solid #F1F1F1;
+	color: #666;	
+}
+.booking-content-word-threecontent-1{
+	font: 400 14px/90px "微软雅黑";
+	float: left;
+	margin-left: 10px;	
+}
+.booking-content-word-threecontent-2{
+	font: 400 14px/90px "微软雅黑";
+	float: left;
+	margin-left: 74px;
+	color: #00A1FF;
+}
+.booking-content-word-threecontent-3{
+	float: left;
+	margin-left: 94px;
+}
+.booking-content-word-threecontent-3-top{
+	margin-top: 30px;
+}
+.booking-content-word-threecontent-3-bottom{
+	color: #58c1ff;
+	padding-left: 10px;
+}
+.booking-content-word-threecontent-4{
+	float: left;
+	margin-left: 100px;
+	margin-top: 35px;	
+}
+.booking-content-word-threecontent-5{
+	float: left;
+	margin-left: 130px;
+	margin-top: 35px;
+}
+.booking-content-word-threecontent-6{
+	margin-left: 94px;
+	float: left;
+}
+.booking-content-word-threecontent-6-top{
+	margin-top: 26px;
+}
+.booking-content-word-threecontent-7{
+	float: left;
+	margin-top: 35px;
+	margin-left: 80px;	
+}
+.booking-content-word-threecontent-8{
+	float: right;
+	margin-right: 90px;		
+}
+.booking-content-word-content-right-top-color{
+	display: block;
+	height: 30px;
+	width: 80px;
+	border: 1px solid #00A1FF;
+	border-radius:10px;
+	margin-top: 10px;
+	background-color: #00a1ff;
+	color: #FFFFFF;
+	text-align: center;	
+}
+.booking-content-word-content-right-top-color:hover{
+	color: #FFF;
+}

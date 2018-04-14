@@ -1,0 +1,138 @@
+.buyer-common-task-topdiv{
+	width: 150px;
+	height: 50px;
+	background-color: #00A1FF;
+	color: #FFFFFF;
+	text-align: center;
+	font: 400 18px/50px "微软雅黑";
+	margin:40px 0 0 0px ;
+}
+.buy-common-task-content{
+	height: 830px;
+	background-color: #fff;
+	border-top:1px solid #00A1FF ;
+}
+
+.buy-common-task-content-typeone select{
+	width: 150px;
+	height: 30px;
+	padding-left: 10px;
+	margin-top: 30px;
+}
+.buy-common-task-content-typeone span{
+	margin-left: 20px;
+}
+.buy-common-task-content-typetwo span{
+	margin-left: 20px;
+}
+.buy-common-task-content-typetwo input{
+	width: 200px;
+	padding-left: 10px;
+	height: 30px;
+	margin-left:14px;
+	margin-top: 30px;
+	font: 400 14px/30px "微软雅黑";
+}
+.buy-common-task-content-typethree span{
+	margin-left: 20px;
+}
+.buy-common-task-content-typethree select{
+	width: 50px;
+	height: 30px;
+	padding-left: 4px;
+	margin-top: 30px;
+}
+.buy-common-task-content-typefour span{
+	margin-left: 20px;
+}
+.buy-common-task-content-typefour input{
+	width: 100px;
+	height: 30px;
+	margin-left:14px;
+	margin-top: 30px;
+	font: 400 14px/30px "微软雅黑";
+}
+.buy-common-task-content-typefour i{
+	margin-left: 20px;
+	font-style: normal;
+	color: #666666;
+}
+.buy-common-task-content-typefive span{
+	margin-left: 20px;
+	margin-top: 40px;
+	float: left;
+}
+.buy-common-task-content-typefive textarea{
+	width: 550px;
+	height: 100px;
+	margin-left:14px;
+	margin-top: 30px;
+	font: 400 14px/30px "微软雅黑";
+	float: left;
+}
+.buy-common-task-content-typefive i{
+	font-style: normal;
+	margin-left: -550px;
+	color: #666;
+	margin-top: 140px;
+	float: left;
+}
+.buy-common-task-content-typesix{
+	border-bottom: 1px dashed #00A1FF;
+}
+.buy-common-task-content-typesix span{
+	margin-left:20px ;
+}
+.buy-common-task-content-typesix input{
+	width: 100px;
+	height: 30px;
+	margin: 30px 10px 40px 14px;
+	font: 400 14px/30px "微软雅黑";
+	
+}
+.buy-common-notice{
+	color: #666666;
+	margin-top: 40px;
+
+
+}
+.buy-common-notice-word {
+	height: 50px;
+}
+.buy-common-task-checkbox{
+	width: 20px;
+	height: 20px;
+	display: block;
+	margin-top: -2px;
+	margin-right: 10px;
+	float: left;
+}
+.buy-common-notice-word span{
+	float: left;
+	color: #aaaaaa;
+}
+.buy-common-bottom-a1{
+	height: 80px;
+	width: 200px;
+	display: inline-block;
+	background-color: #aaaaaa;
+	border-radius:14px;
+	color: #FFFFFF;
+	text-align: center;
+	font: 400 24px/80px "微软雅黑";
+	margin-right: 60px;
+}
+.buy-common-bottom-a2{
+	height: 80px;
+	width: 200px;
+	display: inline-block;
+	background-color: #00A1FF;
+	border-radius:14px;
+	color: #FFFFFF;
+	text-align: center;
+	font: 400 24px/80px "微软雅黑";
+	margin-right: 60px;
+}
+.buy-common-bottom-a2:hover,.buy-common-bottom-a2:focus{
+	color: #FFFFFF;
+}

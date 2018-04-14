@@ -1,0 +1,1599 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>友链首页</title>
+			<script type="text/javascript" src="js/jquery-1.11.1.js"	></script>
+			<script type="text/javascript" src="js/bootstrap.js" ></script>
+			<link rel="stylesheet" href="css/bootstrap.css" />
+			<link rel="stylesheet" href="css/login.css" />
+			<link rel="stylesheet" href="css/index.css"/>
+			<link rel="stylesheet" href="css/Writing-Platform.css" />
+			<link rel="stylesheet" href="css/Chain of friends and trade.css" />
+			<style type="text/css">
+				.nav-tabs > li > a:hover{
+					background-color: none;
+				}
+			</style>
+	</head>
+	<body>
+	<!--辅助开始-->
+
+	<nav class="navbar navbar-inverse sidebar " id="sidebar-wrapper" role="navigation">
+		<ul class="nav sidebar-nav">
+			<li class="siderbar-height"></li>
+			<li class="sidebar-brand"> <a href="我是买家后台-账户概述.html"> <img src="img/sidebar-person.png" title="会员中心"> </a> </li>
+			<li> <a href="#"> <img src="img/sidebar-woman.png" title="客服中心"> </a> </li>
+			<li> <a href="#"> <img src="img/sidebar-car.png" title="购物车"></a> </li>
+			<li> <a href="用户反馈.html"> <img src="img/sidebar-tell.png" title="意见反馈"></a> </li>
+			<li> <a href="#"> <img src="img/sidebar-up.png" title="返回顶部"> </a> </li>
+		</ul>
+	</nav>
+	<!--辅助结束-->
+<div class="navbar-fixed-top">
+	<!--顶部开始-->
+	<div class="container-fluid" style="background-color:#fff">
+		<div class="container">
+			<ul class="pull-left">
+				<li class="pull-left" ><a href="友链首页.html">首页</a></li>
+				<li class="pull-left" style="padding-left: 20px;"><a href="站长咨询.html">站长资讯</a></li>
+			</ul>
+			<ul class="pull-right">
+				<li class="pull-left"> <a href="登录.html">登录丨</a></li>
+				<li class="pull-left"> <a href="注册.html">注册</a></li>
+				<li class="pull-left" style="padding-left: 30px;"> <a href="帮助中心.html">帮助中心</a><span class="caret"></span></li>
+			</ul>
+		</div>
+	</div>
+	<!--顶部结束-->
+	<!--导航开始-->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header navbar-img">
+				<img src="img/logo.png" />
+			</div>
+			<ul class="trans">
+				<li class="trans-1 "><a class="index-color" href="友链首页.html" >首页</a></li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >友链买卖</a>
+					<ul class="dropdown-menu">
+						<li><a href="友链买卖.html">友链买卖</a></li>
+						<li class="divider"></li>
+						<li><a href="友链买卖.html" class="dropdown-menu-li">1元链接</a></li>
+						<li class="dropdown-menu-li"><a href="友链买卖.html">2元链接</a></li>
+						<li class="dropdown-menu-li"><a href="友链买卖.html">灰色地带</a></li>
+						<li class="dropdown-menu-li"><a href="友链买卖.html">推荐链接</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >友链套餐</a>
+					<ul class="dropdown-menu">
+						<li><a href="友链套餐.html">友链套餐</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="友链套餐-任性包年.html">任性包年</a></li>
+						<li class="dropdown-menu-li"><a href="友链套餐-求同存异.html">求同存异</a></li>
+						<li class="dropdown-menu-li"><a href="友链套餐-免费换链.html">免费换链</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >写作任务</a>
+					<ul class="dropdown-menu">
+						<li><a href="写作平台.html">写作任务</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="写作平台.html">网站原创</a></li>
+						<li class="dropdown-menu-li"><a href="写作平台.html">伪原创</a></li>
+						<li class="dropdown-menu-li"><a href="写作平台.html">网站优化</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >任务大厅</a>
+					<ul class="dropdown-menu">
+						<li><a href="任务大厅.html">任务大厅</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="任务大厅.html">SEO搜索</a></li>
+						<li class="dropdown-menu-li"><a href="任务大厅.html">点击广告</a></li>
+						<li class="dropdown-menu-li"><a href="任务大厅.html">浏览广告</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >微世界</a>
+					<ul class="dropdown-menu">
+						<li><a href="微世界-微信阅读.html">微世界</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="微世界-微信阅读.html">微信阅读</a></li>
+						<li class="dropdown-menu-li"><a href="微世界-微信加粉.html">微信加粉</a></li>
+						<li class="dropdown-menu-li"><a href="微世界-微信代运营.html">微信运营</a></li>
+					</ul>
+				</li>
+				<span class="dropdown drop-span" >
+					<b href="#" class="dropdown-toggle drop-b" data-toggle="dropdown" >发布/买卖</b>
+					<ul class="dropdown-menu drop-twice">
+						<li class="dropdown-menu-li"><a href="我是卖家后台-友情套餐.html.html">出售友情链接</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-免费换链.html">发布需求链接</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-写作任务.html">发布写作任务</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-任务大厅.html">发布点击任务</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-微世界.html">发布微信任务</a></li>
+					</ul>
+				</span>
+					<!-- <span class="dropdown" >
+						<a href="#" class="dropdown-toggle btn-a" data-toggle="dropdown">
+							发布/买卖
+						</a>
+						<ul class="dropdown-menu drop-twice">
+							<li class="dropdown-menu-li"><a href="我是卖家后台-友情套餐.html.html" class="drop-width">出售友情链接</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-免费换链.html">发布需求链接</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-写作任务.html">发布写作任务</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-任务大厅.html">发布点击任务</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-微世界.html">发布微信任务</a></li>
+						</ul>
+					</span> -->
+
+			</ul>
+		</div>
+	</nav>
+
+	<!--导航结束-->
+</div>
+
+	<!--轮播图开始-->
+		<div class="container-fluid" style="padding-top:121px;">
+			<div class="carousel row" id="slidershow"  data-ride="carousel"  data-interval="2000">
+				<!--设置轮播图片顺序-->
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#slidershow" data-slide-to = "0"></li>
+					<li data-target="#slidershow" data-slide-to = "1"></li>
+					<li data-target="#slidershow" data-slide-to = "2"></li>
+					<li data-target="#slidershow" data-slide-to = "3"></li>
+				</ol>
+				<!--设置轮播图片-->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="img/login-banner.png" style="width: 100%;">
+					</div>
+					<div class="item">
+						<img src="img/login-banner.png" style="width: 100%;">
+					</div>
+					<div class="item">
+						<img src="img/login-banner.png" style="width: 100%;">
+					</div>
+					<div class="item">
+						<img src="img/login-banner.png" style="width: 100%;">
+					</div>
+				</div>
+								<!--设置轮播图片控制器-->
+				<a href="#slidershow" data-slide="prev" class="left carousel-control" role="button">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a href="#slidershow" data-slide="next" class="right carousel-control" role="button">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+				<!--设置登录控制器-->
+			<div class="index-login-module col-md-4 col-md-push-8">
+				<div class="login-module-info ">
+					会员信息
+				</div>
+				<input class="login-module-info-user" type="text" placeholder="用户名/邮箱/手机号">
+				<input class="login-module-info-password" type="password" placeholder="请输入您的密码">
+
+				<button class="login-button">
+					<a href="#">
+					登录
+					</a>
+				</button>
+				<div class="login-help">
+					<a href="#" class="login-help-1">忘记密码？</a>
+					<span>没有账号？</span>
+					<a href="注册.html" class="login-help-1">点击注册</a>
+				</div>
+			</div>
+			</div>
+		</div>
+										<!--轮播图结束-->
+										<!--交易额开始-->
+
+	<div class="container-fluid" style="background-color: #f1f1f1;height: 60px;">
+		<div class="container">
+			<div class="turning-page">
+				<ul>
+					<div class="turning-page-div">全部 </div>
+					<li>
+						<a href="#Master-editor">
+							编辑大师
+						</a>
+					</li>
+					<li>
+						<a href="#friend">
+							友链池
+						</a>
+					</li>
+					<li>
+						<a href="#task-tall">
+							任务大厅
+						</a>
+					</li>
+					<li>
+						<a href="#Writing-Task">
+							写作任务
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="turning-page-money">
+				本月交易总额
+				<span>66666.66</span>
+				元
+			</div>
+			<div class="turning-page-book">
+				近月订单数
+				<span>6666</span>
+				笔
+			</div>
+			<div class="turning-page-vip">
+				会员总数
+				<span>6666</span>
+				个
+			</div>
+			<div class="turning-page-goods">
+				发布商品数
+				<span>6666</span>
+				个
+			</div>
+		</div>
+
+	</div>
+										<!--交易额结束-->
+										<!--中部微型banner开始-->
+	<div class="container">
+		<div class="mid-banner">
+		</div>
+	</div>
+										<!--中部微型banner结束-->
+										<!--编辑大师开始-->
+	<div class="container">
+		<div class="Master-editor">
+	<div class="Master-editor-header" id="Master-editor">
+				<span> 编辑大师</span>
+			<!-- <div class="Master-editor-wrap">
+				<div class="content">
+					<p><img src="img/Master-editor-wrap-icon.png" />&nbsp;&nbsp;&nbsp;杨幂是我老婆</p>
+					<p><img src="img/Master-editor-wrap-icon.png" />&nbsp;&nbsp;&nbsp;赵奕欢是我老婆</p>
+					<p><img src="img/Master-editor-wrap-icon.png" />&nbsp;&nbsp;&nbsp;奚梦瑶是我老婆</p>
+					<p><img src="img/Master-editor-wrap-icon.png" />&nbsp;&nbsp;&nbsp;新垣结衣是我老婆</p>
+				</div>
+			</div> -->
+			<div class="apple">
+				<ul>
+					<li><a href="#" target="_blank">你是我的小丫小苹果 </a></li>
+			        <li><a href="#" target="_blank">怎么爱你都不嫌多</a></li>
+			        <li><a href="#" target="_blank">红红的小脸儿温暖我的心窝 </a></li>
+			        <li><a href="#" target="_blank">点亮我生命的火 火火火火</a></li>
+			        <li><a href="#" target="_blank">你是我的小丫小苹果 </a></li>
+			        <li><a href="#" target="_blank">就像天边最美的云朵</a></li>
+			        <li><a href="#" target="_blank">春天又来到了花开满山坡 </a></li>
+			        <li><a href="#" target="_blank">种下希望就会收获</a></li>
+			    </ul>
+			</div>
+
+			<div class="Master-editor-slogan">
+				<div class="Master-editor-slogan-left">
+					孟婆汤
+				</div>
+				<div class="Master-editor-slogan-content">
+						三世的轮回只为与你相遇
+						<span>105.5万</span>
+				</div>
+				<img src="img/Master-editor-icon.png" style="margin: 8px 0 0 12px;"/>
+			</div>
+		</div>
+										<!--编辑大师左边开始-->
+	<div class="col-md-4 ">
+	<div class="panel panel-default" style="border: 2px solid #FFFFFF;">
+		<div class="index-panel-heading">
+			<img src="img/index-panel-heading-incon1.png">
+			<span>作家接单</span>
+		</div>
+		<div class="panel-body-tradecompany">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="demo2">
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥1.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥2.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥3.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥4.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥5.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥6.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥7.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥8.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥9.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已接写作任务 ￥10.00</span>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+										<!--编辑大师左边结束-->
+										<!--编辑大师中间开始-->
+	<div class="col-md-4 ">
+	<div class="panel panel-default" style="border: 2px solid #FFFFFF;">
+		<div class="index-panel-heading">
+			<img src="img/index-panel-heading-incon2.png">
+			<span>任务列表</span>
+		</div>
+		<div class="panel-body-tradecompany">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="demo2">
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥100.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥200.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥300.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥400.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥500.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥600.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥500.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥600.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥500.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗文章写作】已发布任务价格 ￥600.00</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+										<!--编辑大师中间结束-->
+										<!--编辑大师右边开始-->
+	<div class="col-md-4 ">
+	<div class="panel panel-default" style="border: 2px solid #FFFFFF;">
+		<div class="index-panel-heading">
+			<img src="img/index-panel-heading-incon3.png">
+			<span>求同存异</span>
+		</div>
+		<div class="panel-body-tradecompany">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="demo2 news-item-padding" >
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】直播行业友链，数量5 </span>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+										<!--编辑大师右边结束-->
+	</div>
+
+
+										<!--编辑收入排行榜开始-->
+		<div class="editor-income">
+		<div class="editor-income-header">
+			编辑收入排行榜
+		</div>
+		<div class="editor-income-classify">
+			<span>排名</span>
+			<b>会员昵称</b>
+			<s>会员收入</s>
+		</div>
+		<div class="editor-income-content">
+			<div class="editor-income-content-word">
+				<img src="img/crown-1.png">
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<img src="img/crown-2.png">
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<img src="img/crown-3.png">
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>4</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>5</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>6</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>7</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>8</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>9</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+		</div>
+			<div class="editor-income-page">
+				<button class="btn btn-default btn-large-1">︿</button>
+				<button class="btn btn-default btn-large-2"> ﹀</button>
+			</div>
+	</div>
+
+										<!--编辑收入排行榜结束-->
+	</div>
+										<!--编辑大师结束-->
+										<!--友链池开始-->
+	<div class="container">
+		<div class="Master-editor" id="friend">
+	<div class="Master-editor-header-1">
+				<span> 友链池</span>
+			<!-- <div class="Master-editor-wrap">
+				<div class="content">
+					<p><img src="img/Master-editor-wrap-icon.png" />&nbsp;&nbsp;&nbsp;杨幂是我老婆</p>
+					<p><img src="img/Master-editor-wrap-icon.png" />&nbsp;&nbsp;&nbsp;赵奕欢是我老婆</p>
+					<p><img src="img/Master-editor-wrap-icon.png" />&nbsp;&nbsp;&nbsp;奚梦瑶是我老婆</p>
+					<p><img src="img/Master-editor-wrap-icon.png" />&nbsp;&nbsp;&nbsp;新垣结衣是我老婆</p>
+				</div>
+			</div> -->
+			<div class="apple">
+				<ul>
+					<li><a href="#" target="_blank">你是我的小丫小苹果 </a></li>
+							<li><a href="#" target="_blank">怎么爱你都不嫌多</a></li>
+							<li><a href="#" target="_blank">红红的小脸儿温暖我的心窝 </a></li>
+							<li><a href="#" target="_blank">点亮我生命的火 火火火火</a></li>
+							<li><a href="#" target="_blank">你是我的小丫小苹果 </a></li>
+							<li><a href="#" target="_blank">就像天边最美的云朵</a></li>
+							<li><a href="#" target="_blank">春天又来到了花开满山坡 </a></li>
+							<li><a href="#" target="_blank">种下希望就会收获</a></li>
+					</ul>
+			</div>
+			<div class="Master-editor-slogan">
+				<div class="Master-editor-slogan-left">
+					奈何桥
+				</div>
+				<div class="Master-editor-slogan-content">
+						三世的轮回只为与你相遇
+						<span>105.5万</span>
+				</div>
+				<img src="img/Master-editor-icon.png" style="margin: 8px 0 0 12px;"/>
+			</div>
+	</div>
+										<!--友链池左边开始-->
+	<div class="col-md-4 ">
+	<div class="panel panel-default" style="border: 2px solid #FFFFFF;">
+		<div class="index-panel-heading">
+			<img src="img/index-panel-heading-incon4.png">
+			<span>最新交易</span>
+		</div>
+		<div class="panel-body-tradecompany">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="demo2">
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【a*****3】已购买友情链接 ￥118.00</span>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+										<!--友链池左边结束-->
+										<!--友链池中间开始-->
+	<div class="col-md-4 ">
+	<div class="panel panel-default" style="border: 2px solid #FFFFFF;">
+		<div class="index-panel-heading">
+			<img src="img/index-panel-heading-incon5.png">
+			<span>English</span>
+		</div>
+		<div class="panel-body-tradecompany">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="demo2">
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【医疗网站】   Dribbble</span>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+										<!--友链池中间结束-->
+										<!--友链池右边开始-->
+	<div class="col-md-4 ">
+	<div class="panel panel-default" style="border: 2px solid #FFFFFF;">
+		<div class="index-panel-heading">
+			<img src="img/index-panel-heading-incon6.png">
+			<span>近期加盟</span>
+		</div>
+		<div class="panel-body-tradecompany">
+			<div class="row">
+				<div class="col-xs-12">
+					<ul class="demo2 news-item-padding" >
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+						<li class="news-item">
+							<span class="news-item-2">【IT行业】   松籽科技-洗了吗</span>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+										<!--友链池右边结束-->
+	</div>
+
+										<!--友链池结束-->
+
+										<!--网站排行榜开始-->
+	<div class="editor-income">
+		<div class="editor-income-header">
+			网站排行榜
+		</div>
+		<div class="editor-income-classify">
+			<span>排名</span>
+			<b>会员昵称</b>
+			<em>销量</em>
+			<i>会员收入</i>
+
+		</div>
+		<div class="editor-income-content">
+			<div class="editor-income-content-word">
+				<img src="img/crown-1.png">
+				 <span>机械工业出版社 </span>
+				 <em>999</em>
+				 <a>￥12000.00</a>
+			</div>
+			<div class="editor-income-content-word">
+				<img src="img/crown-2.png">
+				 <span>机械工业出版社 </span>
+				 <em>999</em>
+				 <a>￥12000.00</a>
+			</div>
+			<div class="editor-income-content-word">
+				<img src="img/crown-3.png">
+				 <span>机械工业出版社 </span>
+				 <em>999</em>
+				 <a>￥12000.00</a>
+			</div>
+			<div class="editor-income-content-word">
+				<i>4</i>
+				 <span>机械工业出版社 </span>
+				 <em>999</em>
+				 <a>￥12000.00</a>
+			</div>
+			<div class="editor-income-content-word">
+				<i>5</i>
+				 <span>机械工业出版社 </span>
+				 <em>999</em>
+				 <a>￥12000.00</a>
+			</div>
+			<div class="editor-income-content-word">
+				<i>6</i>
+				 <span>机械工业出版社 </span>
+				 <em>999</em>
+				 <a>￥12000.00</a>
+			</div>
+			<div class="editor-income-content-word">
+				<i>7</i>
+				 <span>机械工业出版社 </span>
+				 <em>999</em>
+				 <a>￥12000.00</a>
+			</div>
+			<div class="editor-income-content-word">
+				<i>8</i>
+				 <span>机械工业出版社 </span>
+				 <em>999</em>
+				 <a>￥12000.00</a>
+			</div>
+			<div class="editor-income-content-word">
+				<i>9</i>
+				 <span>机械工业出版社 </span>
+				 <em>999</em>
+				 <a>￥12000.00</a>
+			</div>
+		</div>
+			<div class="editor-income-page">
+				<button class="btn btn-default btn-large-1">︿</button>
+				<button class="btn btn-default btn-large-2"> ﹀</button>
+			</div>
+
+	</div>
+	</div>
+										<!--网站排行榜结束-->
+										<!--任务大厅开始-->
+	<div class="container">
+		<div class="task-tall" id="task-tall">
+			<div class="Master-editor-header-2">
+				<span> 任务大厅</span>
+				<span class="task-tal-span">找专业的人，做专业的事</span>
+				<a class="task-tal-span-right" href="#">更多 >></a>
+			</div>
+			<div class="Master-editor-nav col-md-3" style="width: 148px;padding: 0;">
+				<ul class="nav nav-tabs">
+				 <li class="active index-nav1"><a href="#tab1" data-toggle="tab">写作任务</a></li>
+				 <li class="index-nav1"><a href="#tab2" data-toggle="tab" class="Master-editor-nav-tabs">抢单任务</a></li>
+
+				</ul>
+				<div class="tab-content">
+					<!--写作任务-->
+				 <div class="tab-pane active tab-pane-index" id="tab1">
+				 	<ul>
+				 		<li>
+				 			<a href="#">
+				 				网络优化
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				微信润文
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				论文手稿
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				软件游戏
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				 医疗文学
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				 科研技术
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				机械工程
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				化工文学
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				伪原创写作
+				 			</a>
+				 		</li>
+				 	</ul>
+				 	<div class="tab-pane-divider"></div>
+				 	<div class="tab-pane-divider-downword">
+				 		原创文章
+				 	</div>
+				 	<div class="tab-pane-divider-downsmallword" >
+				 		让您的网站排名遥遥领先
+				 	</div>
+				 </div>
+
+		 			<!--抢单任务-->
+				 <div class="tab-pane  tab-pane-index" id="tab2">
+				 	<ul>
+				 		<li>
+				 			<a href="#">
+				 				网络优化
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				微信润文
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				论文手稿
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				软件游戏
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				 医疗文学
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				 科研技术
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				机械工程
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				化工文学
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				伪原创写作
+				 			</a>
+				 		</li>
+				 	</ul>
+				 	<div class="tab-pane-divider"></div>
+				 	<div class="tab-pane-divider-downword">
+				 		原创文章
+				 	</div>
+				 	<div class="tab-pane-divider-downsmallword">
+				 		让您的网站排名遥遥领先
+				 	</div>
+				 </div>
+				</div>
+			</div>
+			<div class="tab-pane-page col-md-9" >
+				<div class="tab-pane-page-1">
+					<div class="tab-pane-page-1-left">
+						<span>6666</span>
+						<i> 元 / 篇</i>
+						<img src="img/tab-pane-page-1.png" class="tab-pane-page-1-left-img-1">
+						<img src="img/tab-pane-page-2.png" class="tab-pane-page-1-left-img-2">
+					</div>
+					<div class="tab-pane-page-1-mid">
+						这是一些写作需求，这是一些写作需求，这是一些写作需求，
+						这是一些写作需求，这是一些写作需求，这是这是......<span>共十篇</span>
+					</div>
+					<div class="tab-pane-page-1-wx">
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+					</div>
+					<div class="tab-pane-page-1-join">
+						······（15人抢标）
+					</div>
+				</div>
+				<!-- <div class="tab-pane-page-2">
+					<div class="tab-pane-page-1-left">
+						<span>6666</span>
+						<i> 元 / 篇</i>
+						<img src="img/tab-pane-page-1.png" class="tab-pane-page-1-left-img-1">
+						<img src="img/tab-pane-page-2.png" class="tab-pane-page-1-left-img-2">
+					</div>
+					<div class="tab-pane-page-1-mid">
+						这是一些写作需求，这是一些写作需求，这是一些写作需求，
+						这是一些写作需求，这是一些写作需求，这是这是......<span>共十篇</span>
+					</div>
+					<div class="tab-pane-page-1-wx">
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+					</div>
+					<a class="tab-pane-page-2-join" href="#">
+						马上参与
+					</a>
+				</div> -->
+				<div class="tab-pane-page-1">
+					<div class="tab-pane-page-1-left">
+						<span>6666</span>
+						<i> 元 / 篇</i>
+						<img src="img/tab-pane-page-1.png" class="tab-pane-page-1-left-img-1">
+						<img src="img/tab-pane-page-2.png" class="tab-pane-page-1-left-img-2">
+					</div>
+					<div class="tab-pane-page-1-mid">
+						这是一些写作需求，这是一些写作需求，这是一些写作需求，
+						这是一些写作需求，这是一些写作需求，这是这是......<span>共十篇</span>
+					</div>
+					<div class="tab-pane-page-1-wx">
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+					</div>
+					<div class="tab-pane-page-1-join">
+						······（15人抢标）
+					</div>
+				</div>
+				<div class="tab-pane-page-1">
+					<div class="tab-pane-page-1-left">
+						<span>6666</span>
+						<i> 元 / 篇</i>
+						<img src="img/tab-pane-page-1.png" class="tab-pane-page-1-left-img-1">
+						<img src="img/tab-pane-page-2.png" class="tab-pane-page-1-left-img-2">
+					</div>
+					<div class="tab-pane-page-1-mid">
+						这是一些写作需求，这是一些写作需求，这是一些写作需求，
+						这是一些写作需求，这是一些写作需求，这是这是......<span>共十篇</span>
+					</div>
+					<div class="tab-pane-page-1-wx">
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+					</div>
+					<div class="tab-pane-page-1-join">
+						······（15人抢标）
+					</div>
+				</div>
+				<div class="tab-pane-page-1">
+					<div class="tab-pane-page-1-left">
+						<span>6666</span>
+						<i> 元 / 篇</i>
+						<img src="img/tab-pane-page-1.png" class="tab-pane-page-1-left-img-1">
+						<img src="img/tab-pane-page-2.png" class="tab-pane-page-1-left-img-2">
+					</div>
+					<div class="tab-pane-page-1-mid">
+						这是一些写作需求，这是一些写作需求，这是一些写作需求，
+						这是一些写作需求，这是一些写作需求，这是这是......<span>共十篇</span>
+					</div>
+					<div class="tab-pane-page-1-wx">
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+					</div>
+					<div class="tab-pane-page-1-join">
+						······（15人抢标）
+					</div>
+				</div>
+				<div class="tab-pane-page-1">
+					<div class="tab-pane-page-1-left">
+						<span>6666</span>
+						<i> 元 / 篇</i>
+						<img src="img/tab-pane-page-1.png" class="tab-pane-page-1-left-img-1">
+						<img src="img/tab-pane-page-2.png" class="tab-pane-page-1-left-img-2">
+					</div>
+					<div class="tab-pane-page-1-mid">
+						这是一些写作需求，这是一些写作需求，这是一些写作需求，
+						这是一些写作需求，这是一些写作需求，这是这是......<span>共十篇</span>
+					</div>
+					<div class="tab-pane-page-1-wx">
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+					</div>
+					<div class="tab-pane-page-1-join">
+						······（15人抢标）
+					</div>
+				</div>
+				<div class="tab-pane-page-1">
+					<div class="tab-pane-page-1-left">
+						<span>6666</span>
+						<i> 元 / 篇</i>
+						<img src="img/tab-pane-page-1.png" class="tab-pane-page-1-left-img-1">
+						<img src="img/tab-pane-page-2.png" class="tab-pane-page-1-left-img-2">
+					</div>
+					<div class="tab-pane-page-1-mid">
+						这是一些写作需求，这是一些写作需求，这是一些写作需求，
+						这是一些写作需求，这是一些写作需求，这是这是......<span>共十篇</span>
+					</div>
+					<div class="tab-pane-page-1-wx">
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+						<a href="#">
+							<img src="img/tab-pane-page-wx.png" />
+						</a>
+					</div>
+					<div class="tab-pane-page-1-join">
+						······（15人抢标）
+					</div>
+				</div>
+					<ol class="carousel-indicators">
+					<li class="active" data-target="#slidershow" data-slide-to = "0" style="background-color: #b2b2b2;"></li>
+					<li data-target="#slidershow" data-slide-to = "1" style="background-color: #e5e5e5;"></li>
+					<li data-target="#slidershow" data-slide-to = "2" style="background-color: #e5e5e5;"></li>
+
+					</ol>
+			</div>
+
+		</div>
+			<div class="Writing-countdown">
+				<div class="Writing-countdown-header">
+					<img src="img/crown.png">
+					写作倒计时
+				</div>
+				<div class="Writing-countdown-content">
+					<div class="Writing-countdown-content-img">
+						<img src="img/Writing-countdown-content-img-1.png">
+					</div>
+					<div class="Writing-countdown-content-word">
+						发布需求后
+						<span>专业售后人员协助商户 </span>
+					</div>
+				</div>
+				<div class="Writing-countdown-content">
+					<div class="Writing-countdown-content-img">
+						<img src="img/Writing-countdown-content-img-2.png">
+					</div>
+					<div class="Writing-countdown-content-word">
+						成果验收时
+						<span>SEO优化效果数据化呈现 </span>
+					</div>
+				</div>
+				<div class="Writing-countdown-content">
+					<div class="Writing-countdown-content-img">
+						<img src="img/Writing-countdown-content-img-3.png">
+					</div>
+					<div class="Writing-countdown-content-word">
+						96%雇主满意
+						<span>按天按效果扣款，每一分钱都用在实处 </span>
+					</div>
+				</div>
+				<div class="Writing-countdown-content">
+					<div class="Writing-countdown-content-img">
+						<img src="img/Writing-countdown-content-img-4.png">
+					</div>
+					<div class="Writing-countdown-content-word">
+						发布需求后
+						<span>无效一件退款 </span>
+					</div>
+				</div>
+				<img src="img/Writing-countdown-content-img-5.png">
+			</div>
+	</div>
+										<!--任务大厅结束-->
+
+
+										<!--写作任务开始-->
+	<div class="container">
+		<div class="Writing-Task" id="Writing-Task">
+										<!--写作任务选项卡开始-->
+			<div class="Master-editor-nav col-md-3" style="width: 148px;padding: 0;">
+				<ul class="nav nav-tabs">
+				 <li class="active index-nav1"><a href="#tab3" data-toggle="tab">点击广告</a></li>
+				 <li class="index-nav1"><a href="#tab4" data-toggle="tab" class="Master-editor-nav-tabs">SEO搜索</a></li>
+				</ul>
+				<div class="tab-content">
+					<!--写作任务-->
+				 <div class="tab-pane active tab-pane-index-write" id="tab3">
+				 	<ul>
+				 		<li>
+				 			<a href="#">
+				 				网络营销
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				微信浏览
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				导购网商
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				软件技术
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				 医疗文库
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				 科研技术
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				机械工程
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				化工文学
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				信息技术
+				 			</a>
+				 		</li>
+				 	</ul>
+				 	<div class="tab-pane-divider"></div>
+				 	<ul>
+				 		<li>
+				 			<a href="#">
+				 				微信关注
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				微信阅读
+				 			</a>
+				 		</li>
+				 	</ul>
+				 	<div class="tab-pane-divider"></div>
+				 	<div class="tab-pane-divider-downword">
+				 		人工搜索
+				 	</div>
+				 	<div class="tab-pane-divider-downsmallword" style="padding-left: 15px;">
+				 		让您的排名更加靠前
+				 	</div>
+				 </div>
+
+		 			<!--抢单任务-->
+				 <div class="tab-pane  tab-pane-index-write" id="tab4">
+				 	<ul>
+				 		<li>
+				 			<a href="#">
+				 				网络营销
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				微信浏览
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				导购网商
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				软件技术
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				 医疗文库
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				 科研技术
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				机械工程
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				化工文学
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				信息技术
+				 			</a>
+				 		</li>
+				 	</ul>
+				 	<div class="tab-pane-divider"></div>
+				 	<ul>
+				 		<li>
+				 			<a href="#">
+				 				微信关注
+				 			</a>
+				 		</li>
+				 		<li>
+				 			<a href="#">
+				 				微信阅读
+				 			</a>
+				 		</li>
+				 	</ul>
+				 	<div class="tab-pane-divider"></div>
+				 	<div class="tab-pane-divider-downword">
+				 		人工搜索
+				 	</div>
+				 	<div class="tab-pane-divider-downsmallword" style="padding-left: 15px;">
+				 		让您的排名更加靠前
+				 	</div>
+				 </div>
+				</div>
+
+		</div>
+										<!--写作任务选项卡结束-->
+										<!--写作任务内容开始-->
+			<div class="Writing-Task-content col-md-9" >
+				<div class="Writing-Task-content-1 " >
+					<a href="#">
+					<img src="img/Writing-Task-content-icon.png">
+					</a>
+					<span>不堆不起猴起不锈力锈钢头钢管切割机高机</span>
+					<img src="img/tab-pane-page-1.png" class="Writing-Task-content-1-imgone">
+					<img src="img/tab-pane-page-2.png" class="Writing-Task-content-1-imgtwo">
+					<i>666元 / 搜</i>
+					<s>停留10秒</s>
+					<a href="#" class="Writing-Task-content-1-a">马上参与</a>
+				</div>
+				<div class="Writing-Task-content-1 " >
+					<a href="#">
+					<img src="img/Writing-Task-content-icon.png">
+					</a>
+					<span>不堆不起猴起不锈力锈钢头钢管切割机高机</span>
+					<img src="img/tab-pane-page-1.png" class="Writing-Task-content-1-imgone">
+					<img src="img/tab-pane-page-2.png" class="Writing-Task-content-1-imgtwo">
+					<i>666元 / 搜</i>
+					<s>停留10秒</s>
+					<a href="#" class="Writing-Task-content-1-a">马上参与</a>
+				</div>
+				<div class="Writing-Task-content-1 " >
+					<a href="#">
+					<img src="img/Writing-Task-content-icon.png">
+					</a>
+					<span>不堆不起猴起不锈力锈钢头钢管切割机高机</span>
+					<img src="img/tab-pane-page-1.png" class="Writing-Task-content-1-imgone">
+					<img src="img/tab-pane-page-2.png" class="Writing-Task-content-1-imgtwo">
+					<i>666元 / 搜</i>
+					<s>停留10秒</s>
+					<a href="#" class="Writing-Task-content-1-a">马上参与</a>
+				</div>
+				<div class="Writing-Task-content-1 " >
+					<a href="#">
+					<img src="img/Writing-Task-content-icon.png">
+					</a>
+					<span>不堆不起猴起不锈力锈钢头钢管切割机高机</span>
+					<img src="img/tab-pane-page-1.png" class="Writing-Task-content-1-imgone">
+					<img src="img/tab-pane-page-2.png" class="Writing-Task-content-1-imgtwo">
+					<i>666元 / 搜</i>
+					<s>停留10秒</s>
+					<a href="#" class="Writing-Task-content-1-a">马上参与</a>
+				</div>
+				<div class="Writing-Task-content-1 " >
+					<a href="#">
+					<img src="img/Writing-Task-content-icon.png">
+					</a>
+					<span>不堆不起猴起不锈力锈钢头钢管切割机高机</span>
+					<img src="img/tab-pane-page-1.png" class="Writing-Task-content-1-imgone">
+					<img src="img/tab-pane-page-2.png" class="Writing-Task-content-1-imgtwo">
+					<i>666元 / 搜</i>
+					<s>停留10秒</s>
+					<a href="#" class="Writing-Task-content-1-a">马上参与</a>
+				</div>
+				<div class="Writing-Task-content-1 " >
+					<a href="#">
+					<img src="img/Writing-Task-content-icon.png">
+					</a>
+					<span>不堆不起猴起不锈力锈钢头钢管切割机高机</span>
+					<img src="img/tab-pane-page-1.png" class="Writing-Task-content-1-imgone">
+					<img src="img/tab-pane-page-2.png" class="Writing-Task-content-1-imgtwo">
+					<i>666元 / 搜</i>
+					<s>停留10秒</s>
+					<a href="#" class="Writing-Task-content-1-a">马上参与</a>
+				</div>
+				<div class="Writing-Task-content-1 " >
+					<a href="#">
+					<img src="img/Writing-Task-content-icon.png">
+					</a>
+					<span>不堆不起猴起不锈力锈钢头钢管切割机高机</span>
+					<img src="img/tab-pane-page-1.png" class="Writing-Task-content-1-imgone">
+					<img src="img/tab-pane-page-2.png" class="Writing-Task-content-1-imgtwo">
+					<i>666元 / 搜</i>
+					<s>停留10秒</s>
+					<a href="#" class="Writing-Task-content-1-a">马上参与</a>
+				</div>
+				<div class="Writing-Task-content-1 " >
+					<a href="#">
+					<img src="img/Writing-Task-content-icon.png">
+					</a>
+					<span>不堆不起猴起不锈力锈钢头钢管切割机高机</span>
+					<img src="img/tab-pane-page-1.png" class="Writing-Task-content-1-imgone">
+					<img src="img/tab-pane-page-2.png" class="Writing-Task-content-1-imgtwo">
+					<i>666元 / 搜</i>
+					<s>停留10秒</s>
+					<a href="#" class="Writing-Task-content-1-a">马上参与</a>
+				</div>
+				<div class="Writing-Task-content-1 " >
+					<a href="#">
+					<img src="img/Writing-Task-content-icon.png">
+					</a>
+					<span>不堆不起猴起不锈力锈钢头钢管切割机高机</span>
+					<img src="img/tab-pane-page-1.png" class="Writing-Task-content-1-imgone">
+					<img src="img/tab-pane-page-2.png" class="Writing-Task-content-1-imgtwo">
+					<i>666元 / 搜</i>
+					<s>停留10秒</s>
+					<a href="#" class="Writing-Task-content-1-a">马上参与</a>
+				</div>
+
+						<ol class="carousel-indicators" style="bottom: 2px; left: 48%;">
+						<li class="active" data-target="#slidershow" data-slide-to = "0" style="background-color: #b2b2b2;"></li>
+						<li data-target="#slidershow" data-slide-to = "1" style="background-color: #e5e5e5;"></li>
+						<li data-target="#slidershow" data-slide-to = "2" style="background-color: #e5e5e5;"></li>
+
+						</ol>
+
+
+			</div>
+										<!--写作任务内容结束-->
+
+		</div>
+										<!--搜索收入月榜开始-->
+	<div class="editor-income" style="margin-top:10px">
+		<div class="editor-income-header">
+			搜索收入月榜
+		</div>
+		<div class="editor-income-classify">
+			<span>排名</span>
+			<b>会员昵称</b>
+			<s>会员收入</s>
+		</div>
+		<div class="editor-income-content">
+			<div class="editor-income-content-word">
+				<img src="img/crown-1.png">
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<img src="img/crown-2.png">
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<img src="img/crown-3.png">
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>4</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>5</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>6</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>7</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>8</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+			<div class="editor-income-content-word">
+				<i>9</i>
+				 <span>机械工业出版社 </span>
+				 <b>￥12000.00</b>
+			</div>
+
+		</div>
+			<div class="editor-income-page" >
+				<button class="btn btn-default btn-large-1">︿</button>
+				<button class="btn btn-default btn-large-2"> ﹀</button>
+			</div>
+			<img src="img/Writing-countdown-content-img-6.png" />
+	</div>
+										<!--搜索收入月榜结束-->
+	</div>
+
+
+										<!--写作任务结束-->
+										<!--友情链接开始-->
+	<div class="container">
+		<div class="friend-contact">
+			<div class="friend-contact-header">
+				友情链接
+			</div>
+			<div class="friend-contact-content">
+			<a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a>
+			<a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a>
+			<a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a>
+			<a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a>
+			<a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a>
+			<a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a> <a href="#">松籽科技  </a>
+
+			</div>
+		</div>
+	</div>
+
+
+										<!--友情链接结束-->
+										<!--底部开始-->
+		<footer class="login-footer">
+			<div class="container">
+				<img src="img/buyer.png" class="login-footer-img"/>
+				<dl class="login-footer-info">
+					<dt> 我是买家</dt>
+					<dd><a href="#">购买友情链接</a></dd>
+					<dd><a href="#">购买链接套餐</a></dd>
+					<dd><a href="#">购买包年套餐</a></dd>
+					<dd><a href="#">买家须知</a></dd>
+				</dl>
+
+
+				<img src="img/seller.png" class="login-footer-img"/>
+				<dl class="login-footer-info">
+					<dt> 我是买家</dt>
+					<dd><a href="#">出售友情链接</a></dd>
+					<dd><a href="#">出售包年套餐</a></dd>
+					<dd><a href="#">卖家须知</a></dd>
+				</dl>
+
+				<img src="img/write.png" class="login-footer-img"/>
+				<dl class="login-footer-info">
+					<dt> 写作任务</dt>
+					<dd><a href="#">发布原创文章</a></dd>
+					<dd><a href="#">发布伪原创文章</a></dd>
+					<dd><a href="#">发布论文文章</a></dd>
+					<dd><a href="#">发布须知</a></dd>
+				</dl>
+
+				<img src="img/help.png" class="login-footer-img"/>
+				<dl class="login-footer-info">
+					<dt>SEO搜索</dt>
+					<dd><a href="#">发布SEO点击任务</a></dd>
+					<dd><a href="#">发布浏览任务</a></dd>
+					<dd><a href="#">微信关注加粉</a></dd>
+					<dd><a href="#">微信公众号代运营</a></dd>
+					<dd><a href="#">发布须知</a></dd>
+				</dl>
+
+				<div class="thumbnail">
+					<img src="img/publictwocode.png" />
+					<div class="caption">
+						微信公众号
+					</div>
+				</div>
+				<div class="thumbnail pull-right">
+					<img src="img/publictwocode.png" />
+					<div class="caption">
+						新浪微博
+					</div>
+				</div>
+				<ul class="login-footer-help">
+					<li>关于孟婆</li>
+					<li>联系方式</li>
+					<li>平台公告</li>
+					<li>帮助中心</li>
+				</ul>
+			</div>
+		</footer>
+		<footer class="login-footer-1">
+			Copyright (C) 2017 站长资源平台 All Rights Resterved
+		</footer>
+										<!--底部结束-->
+
+
+
+
+	</body>
+	<script src="js/jquery.bootstrap.newsbox.min.js" type="text/javascript"></script>
+		<script>
+	    $(function () {
+			$(".demo2").bootstrapNews({
+	            newsPerPage: 10,
+	            autoplay: true,
+				pauseOnHover: true,
+				navigation: false,
+	            direction: 'down',
+	            newsTickerInterval: 2500,
+	            onToDo: function () {
+	                //console.log(this);
+	            }
+	        });
+	  	   });
+
+    </script>
+		<script type="text/javascript">
+			  function autoScroll(obj){
+					$(obj).find("ul").animate({
+						marginTop : "-39px"
+					},1500,function(){
+						$(this).css({marginTop : "0px"}).find("li:first").appendTo(this);
+					})
+				}
+				$(function(){
+					setInterval('autoScroll(".apple")',2000);
+				})
+		</script>
+</html>

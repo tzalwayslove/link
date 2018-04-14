@@ -1,0 +1,123 @@
+.friend-add-topdiv{
+	font: 400 18px/50px "微软雅黑";
+	height: 50px;
+	width: 150px;
+	background-color: #00A1FF;
+	text-align: center;
+	color: #FFF;
+	margin-top: 40px;
+}
+.friend-add-content{
+	border-top: 1px solid #00A1FF;
+	background-color: #fff;
+
+}
+.friend-add-content-title{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.friend-add-content-title input{
+	border: 1px solid #AAAAAA;
+	border-radius: 4px;	
+}
+.friend-add-content span{
+	padding-left: 10px;
+}
+.friend-add-content-color{
+	color: #aaaaaa;
+}
+.friend-add-content-descibe textarea{
+	width: 300px;
+	height: 150px;
+	border-radius: 4px;
+	outline: none;
+	border: 1px solid #AAAAAA;
+	float: left;
+}
+.friend-add-content-descibe span{
+	display: block;
+	float: left;
+}
+.friend-add-content-descibe span:nth-of-type(2){
+	margin-top: 154px;
+	margin-left: -300px;
+}
+.friend-add-content-title-span{
+	float: left;
+	margin-right: 10px;
+}
+.friend-add-content-title-a{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	border-radius: 8px;
+	color: #FFFFFF;
+	background-color: #00A1FF;
+	float: left;
+	margin-top: -6px;
+	text-align: center;
+	font:400 14px/30px "微软雅黑";
+}
+.friend-add-content-title-a:hover{
+	color: #FFFFFF;
+}
+
+.friend-add-content-act-top{
+	background-color: #75ccff;
+	margin-left: 70px;
+	height: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	font: 400 14px/40px "微软雅黑";
+}
+.friend-add-content-act-content{
+	height: 30px;
+	margin-left: 70px;	
+	font:400 14px/30px "微软雅黑";
+	text-align: center;
+	border: 1px solid #F1F1F1;
+}
+.friend-add-content-act-content a{
+	color: #75CCFF;
+}
+.friend-add-content-bottom{
+	margin-left: 70px;
+	color: #E60000;	
+}
+.friend-add-content-title-color{
+	color: #E60000;
+	font-size: 18px;
+	padding-right: 10px;
+}
+.friend-add-content-btm{
+	border-bottom: 1px dashed #00A1FF;
+	padding-bottom: 40px;
+}
+.friend-add-content-btn-1{
+	display: inline-block;
+	background-color: #aaaaaa;
+	color: #FFFFFF;
+	border-radius: 6px;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	font: 400 16px/40px "微软雅黑";
+	
+}
+.friend-add-content-btn-2{
+	display: inline-block;
+	background-color: #00A1FF;
+	color: #FFFFFF;
+	border-radius: 6px;
+	height: 40px;
+	width: 120px;
+	text-align: center;
+	font: 400 16px/40px "微软雅黑";
+	
+}
+.friend-add-content-btn-2:hover{
+	color: #FFFFFF;
+}
+.friend-add-content-title-radio{
+	margin-left: 30px;
+}

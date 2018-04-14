@@ -1,0 +1,227 @@
+.buyer-withdraw-nav-a{
+	   float: right;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 161, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px;
+    font: 400 14px/40px 微软雅黑;
+}
+.buyer-withdraw-nav-a:hover{
+	color: #FFFFFF;
+}
+.withdraw-title{
+	color: #FFFFFF;
+	background-color: #75ccff;
+	text-align: center;
+	font: 400 14px/40px "微软雅黑";
+	height: 40px;
+}
+.withdraw-history{
+	background-color: #FFFFFF;
+	text-align: center;
+	font: 400 14px/40px "微软雅黑";
+	height: 40px;
+	color: #666666;	
+}
+.withdraw-time{
+	background-color: #fff;
+	height: 50px;
+}
+.withdraw-time span{
+	float: left;
+	margin-left: 20px;
+	font: 400 14px/50px "微软雅黑";
+}
+.withdraw-time-inputone{
+	float: left;
+	height: 30px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.withdraw-time-inputtwo{
+	float: left;
+	height: 30px;
+	width: 150px;
+	margin-top: 10px;
+}
+.withdraw-time-divider{
+	width: 15px;
+	height: 1px;
+	background-color: #c1c1c1;
+	float: left;
+	margin: 24px 20px;
+}
+.withdraw-time button{
+	float: left;
+	margin-left: 20px;
+	color: #FFFFFF;
+	background-color: #00A1FF;
+	border: none;
+	width: 80px;
+	height: 30px;
+	border-radius: 8px;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-align: center;
+	font: 400 14px/30px "微软雅黑";
+}
+.withdraw-account{
+	background-color: #FFFFFF;
+}
+.withdraw-account-one{
+	height: 55px;
+	background-color: #FFFFFF;	
+}
+.withdraw-account-frist{
+	float: left;
+	font-size: 14px;
+	margin: 36px 20px 0 26px;
+}
+.withdraw-account-personaccount{
+	float: left;
+	width: 618px;
+	border: 1px solid #dddddd;
+	border-radius: 8px;
+	margin-top: 36px;
+	color: #666666;
+}
+.withdraw-account-personaccount-radio{
+	float: left;
+	margin: 20px 0 0 20px;
+}
+.withdraw-account-personaccount-company{
+	margin: 18px 0 0 30px;
+	float: left;
+}
+.withdraw-account-personaccount-type{
+	margin: 18px 0 0 80px;
+	float: left;	
+}
+.withdraw-account-personaccount-type-one{
+	margin: 18px 40px 0 80px;
+	float: left;	
+}
+.withdraw-account-personaccount-num{
+	margin: 18px 0 0 80px;
+	float: left;	
+}
+.withdraw-account-btn{
+	float: left;
+	font: 400 14px/0px "微软雅黑";
+	color: #FFFFFF;
+	background-color: #00A1FF;
+	width: 80px;
+	height: 30px;
+	border-radius: 8px;
+	border: none;
+	margin: 40px 0 0 36px;
+}
+.withdraw-money{
+	background-color: #fff;
+}
+.withdraw-money-frist{
+	float: left;
+	font-size: 14px;
+	margin: 36px 20px 0 26px;	
+}
+.withdraw-money-text{
+	margin-top: 24px ;
+	margin-right: 10px;
+	font: 400 16px/30px "微软雅黑";
+	width: 160px;
+	height: 30px;
+
+}
+.withdraw-money-notice{
+	color: #666666;
+	margin-left: 20px;
+}
+.withdraw-data{
+	background-color: #fff;
+}
+.withdraw-data-frist{
+	float: left;
+	font-size: 14px;
+	margin: 36px 20px 0 26px;	
+}
+.withdraw-data-two{
+	float: left;
+	font-size: 14px;
+	margin-top: 36px;	
+}
+.withdraw-telephone{
+	background-color: #fff;	
+}
+.withdraw-telephone-frist{
+	float: left;
+	font-size: 14px;
+	margin: 36px 20px 0 26px;	
+}
+.withdraw-telephone-two{
+	float: left;
+	font-size: 14px;
+	margin-top: 36px;	
+}
+.withdraw-code{
+	background-color: #fff;
+	height: 100px;
+	border-bottom: 1px dashed #00A1FF;
+}
+.withdraw-code-frist{
+	float: left;
+	font-size: 14px;
+	margin: 36px 20px 0 26px;	
+}
+.withdraw-code-text{
+	margin-top: 24px ;
+	margin-left: 16px;
+	font: 400 16px/30px "微软雅黑";
+	width: 160px;
+	height: 30px;
+
+}
+.withdraw-code-btn{
+	border: none;
+	border-radius: 8px;
+	width: 90px;
+	height: 30px;
+	color: #FFFFFF;
+	background-color: #00A1FF;
+	text-align: center;
+	font: 400 14px/30px "微软雅黑";
+	margin-left: 20px;
+}
+.withdraw-code-notice{
+	color: #666666;
+	margin-left: 20px;
+}
+.withdraw-notice{
+	background-color: #fff;
+	height: 200px;
+	position: relative;
+}
+.withdraw-notice-top{
+	color: #E60000;
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.withdraw-notice-btn{
+	background-color: #00A1FF;
+	font: 400 24px/80px "微软雅黑";
+	color: #FFFFFF;
+	text-align: center;
+	border: none;
+	border-radius: 14px;
+	height: 80px;
+	width: 200px;
+	outline: none;
+	left: 46%;
+	position: absolute;
+}

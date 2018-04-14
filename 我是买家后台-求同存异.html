@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>孟婆买家后台-求同存异</title>
+		<link href="css/buyer.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-1.11.1.js"	></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<link rel="stylesheet" href="css/bootstrap.css" />		
+		<link rel="stylesheet" href="css/buyer-common.css" />
+	</head>
+	<body>
+
+						<!--头部开始-->
+			<div class="backer">
+				<img src="img/logo.png">
+				<div class="backer-rightbox">
+					<a class="backer-buyer" href="我是买家后台-账户概述.html">我是买家</a>
+					<a class="backer-soilder" href="我是卖家后台-账户概述.html">我是卖家</a>
+					<a href="#" class="backer-car">10</a>
+					<a href="#" class="backer-message">10</a>
+					<div class="backer-ball"></div>
+				</div>				
+			</div>
+
+						<!--头部结束-->
+						<!--选项卡开始-->	
+        	<aside class="left-side col-md-2" style="padding: 20px 0;">
+                <section class="sidebar">
+                    <ul class="sidebar-menu">
+                        <li>
+                            <a href="我是买家后台-账户概述.html" >
+                                <i class="glyphicon glyphicon-user"></i> 账户概述
+                            </a>
+                        </li>
+                        <!--<li>
+                            <a href="我是卖家后台-订单管理.html" >
+                                <i class="glyphicon glyphicon-list-alt"></i> 订单管理
+                            </a>
+                        </li>                  -->
+                        <li>
+                            <a href="我是买家后台-友链管理.html" >
+                                <i class="glyphicon glyphicon-link"></i> 友链管理
+                            </a>
+                        </li>                        
+
+                        <!--<li>
+                            <a href="我是卖家后台-友情套餐.html">
+                                <i class="glyphicon glyphicon-gift"></i> 友链套餐
+                            </a>
+                        </li>-->
+                        <li>
+                            <a href="我是买家后台-求同存异.html" class="sidebar-menu-active">
+                                <i class="glyphicon glyphicon-briefcase"></i> 求同存异
+                            </a>
+                        </li>
+                        <!--<li>
+                            <a href="我是卖家后台-免费换链.html">
+                                <i class="glyphicon glyphicon-usd"></i> 免费换链
+                            </a>
+                        </li>-->
+                        
+                        <li>
+                            <a href="我是买家后台-写作任务.html">
+                                <i class="glyphicon glyphicon-pencil"></i> 写作任务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="我是买家后台-任务大厅.html">
+                                <i class="glyphicon glyphicon-folder-open"></i> 任务大厅
+                            </a>
+                        </li>  
+                        <li>
+                            <a href="我是买家后台-微世界.html">
+                                <i class="glyphicon glyphicon-globe" style="margin-left: -14px;"></i> 微世界
+                            </a>
+                        </li>     
+                        <li>
+                            <a href="我是买家后台-微信代运营.html">
+                                <i class="glyphicon glyphicon-compressed" style="margin-left: 34px;"></i> 微世界代运营
+                            </a>
+                        </li>                          
+                    </ul>
+                </section>
+            </aside>
+            			<!--选项卡结束-->
+           			<!--内容开始-->            			
+    <aside class="col-md-10 right-side" >
+    	<div class="buyer-common-top">
+    		<span class="buyer-common-top-word">状态：</span>
+    		<select name='dog' id='dog' class="buyer-common-top-select">
+				<option id='pug' label='所有' value='所有' > 所有 </option>
+				<option id='pug' label='pug' value='pug' > Pug </option>				
+				<option id='pug' label='pug' value='pug' > Pug </option>				
+			</select>
+			<a href="我是买家后台-求同存异-发布任务.html" class="buyer-common-top-a">发布任务</a>
+    	</div>     	
+        <div class="buyer-common-title">
+        	<span class="col-md-2">需求信息</span>
+        	<span class="col-md-2">百度收录/权重</span>
+        	<span class="col-md-3">求购要求</span>
+        	<span class="col-md-2">申请数量</span>
+        	<span class="col-md-1">总价格</span>
+        	<span class="col-md-1">状态</span>
+        	<span class="col-md-1" >操作</span>
+        </div> 	
+        <div class="buyer-common-list">
+        	<div class="col-md-2">
+        		<span class="buy-common-list-career">行业需求：<span class="buy-redcolor">直播行业友链</span></span>
+        		<span class="buy-common-list-career">链接类别：休闲娱乐</span>
+        		<span class="buy-common-list-career">关键词：<span class="buy-blackcolor">斗鱼直播</span></span>
+        	</div>
+        	<div class="col-md-2">
+        		<span class="buy-common-list-baidu-1">百度收录：>= 0</span>
+        		<span class="buy-common-list-baidu-2">百度权重：>= 0</span>
+        	</div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-buy-1">求购数量：300个</div>
+        		<div class="buy-common-list-buy-2">求购要求：求购直播行业相关友链，数量300个</div>
+        	</div>    	
+        	<div class="col-md-1"></div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-num">申请数量：100个</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-redcolor">￥300.00</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-greencolor">待审核</div>
+        	</div>  
+        	<div class="col-md-1">
+        		<a href="#" class="buy-common-list-btn-1">同意申请</a>
+        		<a href="#" class="buy-common-list-btn-2">拒绝申请</a>
+        	</div>         	
+        </div> 
+        <div class="buyer-common-list">
+        	<div class="col-md-2">
+        		<span class="buy-common-list-career">行业需求：<span class="buy-redcolor">直播行业友链</span></span>
+        		<span class="buy-common-list-career">链接类别：休闲娱乐</span>
+        		<span class="buy-common-list-career">关键词：<span class="buy-blackcolor">斗鱼直播</span></span>
+        	</div>
+        	<div class="col-md-2">
+        		<span class="buy-common-list-baidu-1">百度收录：>= 0</span>
+        		<span class="buy-common-list-baidu-2">百度权重：>= 0</span>
+        	</div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-buy-1">求购数量：300个</div>
+        		<div class="buy-common-list-buy-2">求购要求：求购直播行业相关友链，数量300个</div>
+        	</div>    	
+        	<div class="col-md-1"></div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-num">申请数量：100个</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-redcolor">￥300.00</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-greencolor">待上链</div>
+        	</div>  
+        	<div class="col-md-1">
+        		<a href="#" class="buy-common-list-btn-1">申请售后</a>
+        		<a href="#" class="buy-common-list-btn-3">查看详情</a>
+        	</div>         	
+        </div> 	
+        <div class="buyer-common-list">
+        	<div class="col-md-2">
+        		<span class="buy-common-list-career">行业需求：<span class="buy-redcolor">直播行业友链</span></span>
+        		<span class="buy-common-list-career">链接类别：休闲娱乐</span>
+        		<span class="buy-common-list-career">关键词：<span class="buy-blackcolor">斗鱼直播</span></span>
+        	</div>
+        	<div class="col-md-2">
+        		<span class="buy-common-list-baidu-1">百度收录：>= 0</span>
+        		<span class="buy-common-list-baidu-2">百度权重：>= 0</span>
+        	</div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-buy-1">求购数量：300个</div>
+        		<div class="buy-common-list-buy-2">求购要求：求购直播行业相关友链，数量300个</div>
+        	</div>    	
+        	<div class="col-md-1"></div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-num">申请数量：100个</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-redcolor">￥300.00</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-greencolor">服务中</div>
+        	</div>  
+        	<div class="col-md-1">
+<!--        		<a href="#" class="buy-common-list-btn-1">申请售后</a>-->
+        		<a href="#" class="buy-common-list-btn-4">查看详情</a>
+        	</div>         	
+        </div> 
+        <div class="buyer-common-list">
+        	<div class="col-md-2">
+        		<span class="buy-common-list-career">行业需求：<span class="buy-redcolor">直播行业友链</span></span>
+        		<span class="buy-common-list-career">链接类别：休闲娱乐</span>
+        		<span class="buy-common-list-career">关键词：<span class="buy-blackcolor">斗鱼直播</span></span>
+        	</div>
+        	<div class="col-md-2">
+        		<span class="buy-common-list-baidu-1">百度收录：>= 0</span>
+        		<span class="buy-common-list-baidu-2">百度权重：>= 0</span>
+        	</div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-buy-1">求购数量：300个</div>
+        		<div class="buy-common-list-buy-2">求购要求：求购直播行业相关友链，数量300个</div>
+        	</div>    	
+        	<div class="col-md-1"></div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-num">申请数量：100个</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-redcolor">￥300.00</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-greencolor">服务完成</div>
+        	</div>  
+        	<div class="col-md-1">
+        		<a href="#" class="buy-common-list-btn-6">查看详情</a>
+        		<a href="#" class="buy-common-list-btn-5">删除计划</a>
+        	</div>         	
+        </div> 	 
+        <div class="buyer-common-list">
+        	<div class="col-md-2">
+        		<span class="buy-common-list-career">行业需求：<span class="buy-redcolor">直播行业友链</span></span>
+        		<span class="buy-common-list-career">链接类别：休闲娱乐</span>
+        		<span class="buy-common-list-career">关键词：<span class="buy-blackcolor">斗鱼直播</span></span>
+        	</div>
+        	<div class="col-md-2">
+        		<span class="buy-common-list-baidu-1">百度收录：>= 0</span>
+        		<span class="buy-common-list-baidu-2">百度权重：>= 0</span>
+        	</div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-buy-1">求购数量：300个</div>
+        		<div class="buy-common-list-buy-2">求购要求：求购直播行业相关友链，数量300个</div>
+        	</div>    	
+        	<div class="col-md-1"></div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-num">申请数量：100个</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-redcolor">￥300.00</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-greencolor">已拒单</div>
+        	</div>  
+        	<div class="col-md-1">
+        		<a href="#" class="buy-common-list-btn-6">查看详情</a>
+        		<a href="#" class="buy-common-list-btn-5">删除计划</a>
+        	</div>         	
+        </div>      
+        <div class="buyer-common-list">
+        	<div class="col-md-2">
+        		<span class="buy-common-list-career">行业需求：<span class="buy-redcolor">直播行业友链</span></span>
+        		<span class="buy-common-list-career">链接类别：休闲娱乐</span>
+        		<span class="buy-common-list-career">关键词：<span class="buy-blackcolor">斗鱼直播</span></span>
+        	</div>
+        	<div class="col-md-2">
+        		<span class="buy-common-list-baidu-1">百度收录：>= 0</span>
+        		<span class="buy-common-list-baidu-2">百度权重：>= 0</span>
+        	</div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-buy-1">求购数量：300个</div>
+        		<div class="buy-common-list-buy-2">求购要求：求购直播行业相关友链，数量300个</div>
+        	</div>    	
+        	<div class="col-md-1"></div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-num">申请数量：100个</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-redcolor">￥300.00</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-greencolor">申请售后</div>
+        	</div>  
+        	<div class="col-md-1">
+        		<a href="#" class="buy-common-list-btn-7">售后进度</a>
+        		<a href="#" class="buy-common-list-btn-3">查看详情</a>
+        	</div>         	
+        </div>   
+        <div class="buyer-common-list">
+        	<div class="col-md-2">
+        		<span class="buy-common-list-career">行业需求：<span class="buy-redcolor">直播行业友链</span></span>
+        		<span class="buy-common-list-career">链接类别：休闲娱乐</span>
+        		<span class="buy-common-list-career">关键词：<span class="buy-blackcolor">斗鱼直播</span></span>
+        	</div>
+        	<div class="col-md-2">
+        		<span class="buy-common-list-baidu-1">百度收录：>= 0</span>
+        		<span class="buy-common-list-baidu-2">百度权重：>= 0</span>
+        	</div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-buy-1">求购数量：300个</div>
+        		<div class="buy-common-list-buy-2">求购要求：求购直播行业相关友链，数量300个</div>
+        	</div>    	
+        	<div class="col-md-1"></div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-num">申请数量：100个</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-redcolor">￥300.00</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-greencolor">待付款</div>
+        	</div>  
+        	<div class="col-md-1">
+        		<a href="#" class="buy-common-list-btn-1">立即付款</a>
+        		<a href="#" class="buy-common-list-btn-3">查看详情</a>
+        	</div>         	
+        </div>  
+        <div class="buyer-common-list">
+        	<div class="col-md-2">
+        		<span class="buy-common-list-career">行业需求：<span class="buy-redcolor">直播行业友链</span></span>
+        		<span class="buy-common-list-career">链接类别：休闲娱乐</span>
+        		<span class="buy-common-list-career">关键词：<span class="buy-blackcolor">斗鱼直播</span></span>
+        	</div>
+        	<div class="col-md-2">
+        		<span class="buy-common-list-baidu-1">百度收录：>= 0</span>
+        		<span class="buy-common-list-baidu-2">百度权重：>= 0</span>
+        	</div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-buy-1">求购数量：300个</div>
+        		<div class="buy-common-list-buy-2">求购要求：求购直播行业相关友链，数量300个</div>
+        	</div>    	
+        	<div class="col-md-1"></div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-num">申请数量：100个</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-redcolor">￥300.00</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-greencolor">将到期</div>
+        	</div>  
+        	<div class="col-md-1">
+        		<a href="#" class="buy-common-list-btn-1">重新发布</a>
+        		<a href="#" class="buy-common-list-btn-3">查看详情</a>
+        	</div>         	
+        </div>   
+        <div class="buyer-common-list">
+        	<div class="col-md-2">
+        		<span class="buy-common-list-career">行业需求：<span class="buy-redcolor">直播行业友链</span></span>
+        		<span class="buy-common-list-career">链接类别：休闲娱乐</span>
+        		<span class="buy-common-list-career">关键词：<span class="buy-blackcolor">斗鱼直播</span></span>
+        	</div>
+        	<div class="col-md-2">
+        		<span class="buy-common-list-baidu-1">百度收录：>= 0</span>
+        		<span class="buy-common-list-baidu-2">百度权重：>= 0</span>
+        	</div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-buy-1">求购数量：300个</div>
+        		<div class="buy-common-list-buy-2">求购要求：求购直播行业相关友链，数量300个</div>
+        	</div>    	
+        	<div class="col-md-1"></div>
+        	<div class="col-md-2">
+        		<div class="buy-common-list-num">申请数量：100个</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-redcolor">￥300.00</div>
+        	</div>
+        	<div class="col-md-1">
+        		<div class="buy-common-list-num buy-greencolor">到达时限</div>
+        	</div>  
+        	<div class="col-md-1">
+        		<a href="#" class="buy-common-list-btn-8">延长发布</a>
+        		<a href="#" class="buy-common-list-btn-3">查看详情</a>
+        		<a href="#" class="buy-common-list-btn-5">删除计划</a>        		
+        	</div>         	
+        </div>         
+    </aside>   			            			
+            			<!--内容结束-->           	
+	</body>
+</html>

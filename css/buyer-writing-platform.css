@@ -1,0 +1,90 @@
+.buyer-writing-platform-condition{
+	height: 50px;
+	background-color: #fff;
+	margin-top: 40px;
+}
+.buyer-writing-platform-condition-left{
+	margin-left: 20px;
+	font: 400 14px/50px "微软雅黑";
+	color: #666666;
+}
+.buyer-writing-platform-condition select{
+	width: 120px;
+	height: 30px;
+	padding-left: 10px;
+}
+.buyer-writing-platform-condition-right{
+	width: 360px;
+	height: 50px;
+	float: right;
+}
+.buyer-writing-platform-condition-right-input{
+	border: 1px solid #00A1FF;
+	width: 180px;
+	height: 30px;
+	margin-top: 10px;
+	border-radius: 16px 0 0 16px;
+	padding-left: 16px;
+	outline: none;
+}
+.buyer-writing-platform-condition-right-a{
+	display: inline-block;
+	width: 50px;
+	height: 30px;
+	border-radius:0 16px 16px 0;
+	background-color: #00A1FF;
+	color: #FFFFFF;
+	padding-left: 10px;
+	margin-left: -4px;
+	
+}
+.buyer-writing-platform-condition-right-a:hover,.buyer-writing-platform-condition-right-a:focus{
+	color: #FFFFFF;
+}
+.buyer-writing-platform-condition-right-a1{
+    width: 100px;
+    height: 30px;
+    display: inline-block;
+    background-color: #00A1FF;
+    color: #FFFFFF;
+    text-align: center;
+    float: right;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-size: 14px;
+}
+.buyer-writing-platform-condition-right-a1:hover,.buyer-writing-platform-condition-right-a1:focus{
+	color: #FFFFFF;
+}
+.buyer-writing-platform-title{
+	color: #666;
+	font:400 14px/50px "微软雅黑" ;
+	background-color: #fff;
+	text-align: center;
+	border-top: 1px solid #F1F1F1;
+	height: 51px;
+	
+}
+.buyer-writing-platform-content{
+	color: #666;
+	font:400 14px/50px "微软雅黑" ;
+	background-color: #fff;
+	text-align: center;
+	border-top: 1px solid #F1F1F1;
+	height: 51px;
+	
+}
+.buyer-writing-platform-content-a{
+	width: 80px;
+    height: 30px;
+    display: inline-block;
+    background-color: #FFF;
+    border: 1px solid #00A1FF;
+    color: #00A1FF;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}

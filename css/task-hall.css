@@ -1,0 +1,246 @@
+.news-item-3-task{
+	float: right;
+	color: rgb(255, 140, 92);
+    font: 400 12px/16px 微软雅黑;
+}
+.task-hall-mytab a{
+	width: 78px;
+	height: 40px;
+	font-size: 12px;
+	color: #000;
+	margin-top: 6px;
+}
+.col-ex .task-hall-mytab a:hover{
+	color: #00A1FF;
+	background-color: #fff;
+	border: none;
+}
+
+.task-hall-mytab{
+	border-bottom: 1px solid #F1F1F1;
+	background-color: #fff;
+	height: 50px;
+}
+.task-hall-mytab li{
+	height: 30px;
+	float: left;
+	font: 400 14px/30px '微软雅黑';
+	padding:0 12px 0 12px;
+	margin-top: 10px;
+}
+.task-hall-mytab li:hover{
+	background-color: #00A1FF;
+	color: #fff;
+	border-radius: 8px;
+}
+.task-hall-mytab a{
+	font: 400 14px/30px '微软雅黑';
+}
+
+.tab-content{
+	height: 220px;
+	background-color: #fff;
+}
+.panner-search-trade-text-left{
+	height: 20px;
+	width: 60px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+.panner-search-trade-text-right{
+	height: 20px;
+	width: 60px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+.tradeinput-divider{
+	background-color: #DDDDDD;
+	width: 20px;
+	height: 1px;
+	display: inline-block;
+	margin-bottom: 4px;
+}
+.panner-search-left-2-word{
+	 font: 400 14px/30px "微软雅黑";
+	 color: #000000;
+}
+.panner-search-left-2-word:hover{
+	color: #00A1FF;
+}
+.plantform-choose-left{
+	font:400 14px/38px "微软雅黑";
+	float: left;
+	color: red;
+	text-indent: 10px;
+	margin-right: 190px;
+}
+.plantform-choose-left span{
+	color: #00A1FF;
+}
+.plantform-choose-btn-task{
+	/* float: right;
+	width: 100px;
+	margin-left: 20px;
+	height: 40px;
+    background-color: #00a1ff;
+    font: 400 16px/20px "微软雅黑"; */
+		margin:0 10px 0 10px ;
+    border: none;
+    float: right;
+    width: 100px;
+		background-color: #3eb5f6;
+		font: 400 14px/20px "微软雅黑";
+}
+.plantform-crap-title-task{
+	height: 40px;
+	color: #666666;
+	font: 400 14px/40px "微软雅黑";
+	border-bottom: 1px solid #f1f1f1;
+}
+.plantform-crap-title-task span{
+	float:left ;
+	margin-right: 400px;
+	margin-left: 230px;
+	color: #666666;
+}
+.plantform-crap-title-task i{
+	font-style: normal;
+	float: left;
+	margin-right: 60px;
+}
+.plantform-crap-body-task{
+	height: 60px;
+	color: #666666;
+	font: 400 14px/60px "微软雅黑";
+	border-bottom: 1px solid #f1f1f1;
+}
+.plantform-crap-body-task span{
+	float: left;
+	margin-left: 24px;
+	cursor: pointer;
+}
+.plantform-crap-body-task span:hover{
+	color: #00A1FF;
+}
+
+.plantform-crap-body-task i{
+	font-style: normal;
+	float: left;
+	color: #E60000;
+	margin-left: 177px;
+}
+.plantform-crap-body-task em{
+	font-style: normal;
+	float: left;
+	color: #666;
+	margin-left: 90px;
+}
+.plantform-crap-body-task s{
+	text-decoration: none;
+	float: left;
+	color: #666;
+	margin-left: 90px;
+}
+.plantform-crap-body-task b{
+	font-weight: normal;
+	float: left;
+	color: #E60000;
+	margin-left: 80px;
+}
+/**1start**/
+.plantform-crap-body-task-1{
+	height: 60px;
+	color: #666666;
+	font: 400 14px/60px "微软雅黑";
+	border-bottom: 1px solid #f1f1f1;
+}
+.plantform-crap-body-task-1 span{
+	float: left;
+	margin-left: 24px;
+	cursor: pointer;
+}
+.plantform-crap-body-task-1 span:hover{
+	color: #00A1FF;
+}
+
+.plantform-crap-body-task-1 i{
+	font-style: normal;
+	float: left;
+	color: #E60000;
+	margin-left: 88px;
+}
+.plantform-crap-body-task-1 em{
+	font-style: normal;
+	float: left;
+	color: #666;
+	margin-left: 90px;
+}
+.plantform-crap-body-task-1 s{
+	text-decoration: none;
+	float: left;
+	color: #666;
+	margin-left: 90px;
+}
+.plantform-crap-body-task-1 b{
+	font-weight: normal;
+	float: left;
+	color: #E60000;
+	margin-left: 80px;
+}
+/**1end**/
+/**2start**/
+.plantform-crap-body-task-2{
+	height: 60px;
+	color: #666666;
+	font: 400 14px/60px "微软雅黑";
+	border-bottom: 1px solid #f1f1f1;
+}
+.plantform-crap-body-task-2 span{
+	float: left;
+	margin-left: 24px;
+	cursor: pointer;
+}
+.plantform-crap-body-task-2 span:hover{
+	color: #00A1FF;
+}
+
+.plantform-crap-body-task-2 i{
+	font-style: normal;
+	float: left;
+	color: #E60000;
+	margin-left: 136px;
+}
+.plantform-crap-body-task-2 em{
+	font-style: normal;
+	float: left;
+	color: #666;
+	margin-left: 90px;
+}
+.plantform-crap-body-task-2 s{
+	text-decoration: none;
+	float: left;
+	color: #666;
+	margin-left: 90px;
+}
+.plantform-crap-body-task-2 b{
+	font-weight: normal;
+	float: left;
+	color: #E60000;
+	margin-left: 80px;
+}
+/**2end**/
+
+
+
+.plantform-crap-task{
+		height:1125px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    background-color: #fff;
+}

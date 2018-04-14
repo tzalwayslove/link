@@ -1,0 +1,100 @@
+.sell-button-icon{
+	background-color: #00A1FF;
+	color: #FFFFFF;
+	font: 400 18px/50px "微软雅黑";
+	text-align: center;
+	margin-top: 40px;
+	width: 150px;
+}
+.sell-button-content{
+	background-color: #fff;
+
+}
+.sell-button-content-one{
+	height: 50px;
+	margin-top: 20px;
+	
+}
+.sell-button-content-one span{
+	font:  400 14px/50px "微软雅黑";
+}
+.sell-button-content-one-input{
+	width: 300px;
+	height: 30px;
+	padding-left: 10px;
+}
+.sell-button-content-one a{
+	width: 60px;
+	height: 30px;
+	color: #FFFFFF;
+	background-color: #00A1FF;
+	text-align: center;
+	display: inline-block;
+	font: 400 14px/30px "微软雅黑";
+	margin-left: 40px;
+	margin-right: 10px;
+}
+
+.sell-button-content-one-radio-1{
+	margin-left: 30px;
+}
+.sell-button-content-one-input-1{
+	width: 100px;
+	height: 30px;
+	padding-left: 10px;	
+}
+.dashdivider{
+	height: 1px;
+	background-color: #00A1FF;
+	margin-top: 36px;
+}
+.sell-button-bottom-1{
+	display: block;
+	height: 40px;
+	width: 120px;
+	float: left;
+	background-color: #aaaaaa;
+	color: #FFFFFF;
+	font: 400 18px/40px "微软雅黑";
+	text-align: center;
+	border-radius: 8px;
+	margin-top: 20px ;
+	margin-left: 600px;
+}
+.sell-button-bottom-1:hover{
+	color: #FFFFFF;
+}
+.sell-button-bottom-2{
+	display: block;
+	height: 40px;
+	width: 120px;
+	float: left;
+	background-color: #00A1FF;
+	color: #FFFFFF;
+	font: 400 18px/40px "微软雅黑";
+	text-align: center;
+	border-radius: 8px;
+	margin: 20px 0 20px 60px;
+
+}
+.sell-button-bottom-2:hover{
+		color: #FFFFFF;
+}
+
+
+/**免费换链按钮跳转**/
+.blueheight{
+	height: 20px;
+	width: 4px;
+	background-color: #00a1ff;
+	display: inline-block;
+	margin: 20px 10px 0 0px;
+}
+.blueheight-word{
+	font-size: 18px;
+}
+.sell-button-content-one-input-1{
+	width: 100px;
+	height: 30px;
+	padding-left: 10px;		
+}

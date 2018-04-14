@@ -1,0 +1,214 @@
+.panel-body-tradecompany{
+	padding: 0 0 0 3px;
+}
+.news-item-4{
+	float: right;
+	font: 400 12px/16px "微软雅黑";
+	color: #ff8c5c;
+}
+.col-trade-height{
+	height: 440px;
+	margin-top: 18px;
+	background-color: #fff;
+}
+.panel-body-trade-choose{
+	height: 46px;
+	font: 400 14px/40px "微软雅黑";
+
+}
+.panner-search-trande-left{
+	width: 88px;
+	height: 40px;
+	padding-left:14px ;
+	padding-top: 16px;
+	font: 400 14px/14px "微软雅黑";
+	float: left;
+}
+.panner-search-trande-left-a{
+	width: 88px;
+	height: 40px;
+	padding-left:14px ;
+	padding-top: 10px;
+	font: 400 14px/14px "微软雅黑";
+	float: left;
+}
+.panner-search-trade-right{
+	float: left;
+	width: 724px;
+	padding-top: 4px;
+}
+.panner-search-trade-right span{
+	padding-right:14px;
+	font: 400 14px/30px "微软雅黑";
+}
+.panner-search-trade-right span:hover{
+	cursor: pointer;
+}
+.panner-trade-search{
+	height: 100px;
+}
+.panner-search-trade-text-left{
+	height: 20px;
+	width: 60px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+.panner-search-trade-text-right{
+	height: 20px;
+	width: 60px;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	outline: none;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+.tradeinput-divider{
+	background-color: #DDDDDD;
+	width: 20px;
+	height: 1px;
+	display: inline-block;
+	margin-bottom: 4px;
+}
+.plantform-choose-trade-word{
+	float: left;
+	margin-left: 160px;
+	font: 400 14px/20px "微软雅黑";
+	margin-top: -6px;
+}
+.plantform-choose-trade-word span{
+	color: #f39800;
+	font: 400 16px/40px "微软雅黑";
+	padding: 0 8px;
+}
+.plantform-choose-trade-word i{
+	font-style: normal;
+	color: red;
+	padding:0 6px 0 10px;
+	font: 400 14px/40px "微软雅黑";
+}
+.plantform-choose-trade-word b{
+	font-style: normal;
+	font: 400 14px/40px "微软雅黑";
+	padding: 0 6px;
+}
+.plantform-choose-trade-checkbox{
+	float: left;
+	border-radius: 4px;
+	margin-top: 14px;
+	border-color: #666666;
+	margin-right: 14px;
+}
+.plantform-choose-trade-checkbox-word{
+	float: left;
+	font: 400 14px/40px "微软雅黑";
+	color: #666666;
+}
+.plantform-crap-trade-title{
+	height: 40px;
+	color: #666666;
+	font: 400 14px/40px "微软雅黑";
+	border-bottom: 1px solid #f1f1f1;
+}
+.plantform-crap-trade-title span{
+	float:left ;
+	margin-right: 150px;
+
+}
+.plantform-crap-trade-title i{
+	font-style: normal;
+	float: left;
+	margin-right: 65px;
+}
+.plantform-crap-trade-title em{
+	font-style: normal;
+	float: left;
+	margin-right: 80px;
+}
+.plantform-crap-trade-title i:nth-of-type(5){
+	margin-right: 0;
+}
+.plantform-crap-trade-body{
+	height: 60px;
+	color: #666666;
+	font: 400 14px/60px "微软雅黑";
+	border-bottom: 1px solid #f1f1f1;
+}
+.plantform-crap-trade-body span{
+	float:left ;
+	margin-right: 96px;
+	cursor: pointer;
+}
+.plantform-crap-trade-body span:hover{
+	color: #00A1FF;
+}
+.plantform-crap-trade-body i{
+	font-style: normal;
+	float: left;
+	margin-right: 78px;
+}
+.plantform-crap-trade-body b{
+	font-weight:normal;
+	float: left;
+	margin-right: 58px;
+	margin-left: -10px;
+}
+.plantform-crap-trade-body s{
+	text-decoration:none;
+	float: left;
+	margin-left: 10px;
+}
+.plantform-crap-trade-body em{
+	font-style: normal;
+	float: left;
+	margin-right: 80px;
+	margin-left: 10px;
+}
+.trade-div-left{
+	width:30px;
+	height: 20px;
+	float: left;
+	background: url(../img/trade-bd.png) no-repeat 6px 0;
+	border: 1px solid #666666;
+	border-radius: 4px 0 0 4px;
+	margin-top: 20px;
+}
+.trade-div-right{
+	width:30px;
+	height: 20px;
+	float: left;
+	border: 1px solid #666666;
+	border-left:none ;
+	border-radius:0 4px 4px 0;
+	margin-right: 54px;
+	font:400 12px/20px "微软雅黑" ;
+	margin-top: 20px;
+	text-indent: 10px;
+}
+.plantform-carp-trade-btn{
+	height: 30px;
+	margin-top: 14px;
+	width: 70px;
+	margin-right: 20px;
+	background-color: #FFFFFF;
+	color: #00A1FF;
+	border-color: #00A1FF;
+	float: right;
+	font: 400 14px/30px "微软雅黑";
+	padding: 0;
+}
+.plantform-crap-trade-body .trade-span-width{
+	float: left;
+	margin-right: 150px;
+}
+.page-header-margin{
+	margin-top: 20px;
+}
+.buy-two{
+	 transform: translateY(30%);
+	 border-radius:0 8px 8px 0;
+	 outline: none;
+	 background-color: #00A1FF;"
+}

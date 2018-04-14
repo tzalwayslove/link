@@ -1,0 +1,177 @@
+.toptwodiv{
+	margin-top: 40px;
+	width: 100%;
+	height: 50px;
+}
+.buyer-recharge-nav-a{
+	   float: right;
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(0, 161, 255);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-radius: 8px;
+    font: 400 14px/40px 微软雅黑;
+}
+.recharge-navtop{
+	background-color: #FFFFFF;
+	font: 400 18px/76px "微软雅黑";
+	border-bottom: 1px dashed #00a1ff;
+}
+.recharge-navtop span{
+	padding-left:20px;
+}
+.recharge-navtop i{
+	font-style: normal;
+	color: #e60000;
+	font-size: 24px;
+}
+.recharge-navtop-notice{
+	margin-left: 70px;
+	font: 400 14px/76px "微软雅黑";
+}
+.recharge-navcontent{
+	background-color: #FFFFFF;
+	border-bottom: 1px dashed #00A1FF;
+}
+
+.recharge-navcontent-one span{
+	font: 400 14px/80px "微软雅黑";
+	padding-left:20px;	
+	padding-top: 20px;
+}
+.recharge-navcontent-num{
+	width: 150px;
+	height: 60px;
+	display: inline-block;
+	font: 400 24px/60px "微软雅黑";
+	text-align: center;
+	border: 1px solid #dddddd;
+	border-radius: 8px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.recharge-navcontent-num-hover{
+	background: url(../img/check.png) no-repeat right bottom;
+	border: 1px solid #00A1FF !important;
+	color: #00A1FF;
+}
+
+.recharge-navcontent-text{
+	margin-top: 20px;
+	margin-left: 20px;		
+	height: 40px;
+	width: 200px;
+	font: 400 18px/40px "微软雅黑";
+	padding-left: 10px;
+}
+.rechargepaybaby{
+	width: 255px;
+	height: 100px;
+	border: 1px solid #DDDDDD;
+	display: inline-block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+.rechargepaybabybg{
+	background: url(../img/paybaby.png) no-repeat center;
+	width: 254px;	
+	height: 100px;
+}
+
+.recharge-navcontent-two span{
+	font: 400 14px/80px "微软雅黑";
+	padding:40px 20px 0 20px;	
+	float: left;
+	
+}
+.recharge-navcontent-bottom-topword{
+	text-align: center;
+	color: #E60000;
+	font: 400 14px/74px "微软雅黑";
+	background-color: #fff;
+}
+.recharge-navcontent-bottom-mid{
+	background-color: #fff;
+	
+}
+.recharge-navcontent-bottom-mid-pay{
+	background-color: #00A1FF;
+	color: #FFFFFF;
+	display: inline-block;
+	margin-bottom: 40px;
+	width: 200px;
+	height: 80px;
+	border-radius: 8px;
+	text-align: center;
+	font: 400 24px/80px "微软雅黑";
+}
+.recharge-navcontent-bottom-mid-question{
+	color: #00A1FF;
+	padding-left: 30px;
+}
+.buyer-recharge-nav-a:hover{
+	color: #FFFFFF;
+}
+.recharge-navcontent-bottom-mid-pay:hover{
+	color: #FFFFFF;
+}
+.recharge-time{
+	background-color: #fff;
+	height: 50px;
+}
+.recharge-time span{
+	float: left;
+	margin-left: 20px;
+	font: 400 14px/50px "微软雅黑";
+}
+.recharge-time-inputone{
+	float: left;
+	height: 30px;
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.recharge-time-inputtwo{
+	float: left;
+	height: 30px;
+	width: 150px;
+	margin-top: 10px;
+}
+.recharge-time-divider{
+	width: 15px;
+	height: 1px;
+	background-color: #c1c1c1;
+	float: left;
+	margin: 24px 20px;
+}
+.recharge-time button{
+	float: left;
+	margin-left: 20px;
+	color: #FFFFFF;
+	background-color: #00A1FF;
+	border: none;
+	width: 80px;
+	height: 30px;
+	border-radius: 8px;
+	margin-left: 20px;
+	margin-top: 10px;
+	text-align: center;
+	font: 400 14px/30px "微软雅黑";
+}
+.recharge-title{
+	color: #FFFFFF;
+	background-color: #75ccff;
+	text-align: center;
+	font: 400 14px/40px "微软雅黑";
+	height: 40px;
+}
+.recharge-history{
+	background-color: #FFFFFF;
+	text-align: center;
+	font: 400 14px/40px "微软雅黑";
+	height: 40px;
+	color: #666666;	
+}

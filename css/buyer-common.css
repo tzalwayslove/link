@@ -1,0 +1,155 @@
+.buyer-common-top{
+	height: 50px;
+	background-color: #fff;
+	margin-top: 40px;
+	border-bottom: 1px solid #F1F1F1;
+}
+.buyer-common-top-word{
+	font: 400 14px/49px "微软雅黑";
+	color: #666;
+	padding-left: 20px;
+}
+.buyer-common-top-select{
+	height: 30px;
+	width: 120px;
+	padding-left: 10px;
+}
+.buyer-common-top-a{
+	width: 100px;
+	height: 30px;
+	display: inline-block;
+	background-color: #00A1FF;
+	color: #FFFFFF;
+	text-align: center;
+	float: right;
+	border-radius: 8px;
+	margin-top: 10px;
+	margin-right: 20px;
+	font-size: 14px;	
+}
+.buyer-common-top-a:hover,.buyer-common-top-a:focus{
+	color: #FFFFFF;
+}
+.buyer-common-title{
+	height: 51px;
+	border-bottom: 1px solid #F1F1F1;
+	font: 14px/50px "微软雅黑";
+	color: #666;
+	background-color: #fff;
+
+}
+.buyer-common-list{
+	background-color: #fff;
+	height: 120px;
+	color: #666;
+	border-bottom: 1px solid #F1F1F1;
+}
+.buy-common-list-career{
+	margin-top: 16px;
+	display:block;
+}
+.buy-common-list-baidu-1{
+	display: block;
+	margin-top: 30px;
+}
+.buy-common-list-baidu-2{
+	display:block;
+	margin-top: 20px;
+}
+.buy-common-list-buy-1{	
+	margin-top: 30px;
+}
+.buy-common-list-buy-2{	
+	margin-top: 16px;
+	font: 400 14px/20px "微软雅黑";
+}
+.buy-common-list-num{
+	margin-top: 50px;
+	
+}
+.buy-common-list-btn-1{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	background-color: #00A1FF;
+	display: block;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+.buy-common-list-btn-1:hover{
+	color: #FFFFFF;
+}
+.buy-common-list-btn-2{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	background-color: #aaaaaa;
+	display: block;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+.buy-common-list-btn-3{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	background-color: #ffa200;
+	display: block;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+.buy-common-list-btn-4{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	background-color: #ffa200;
+	display: block;
+	border-radius: 8px;
+	margin-top: 40px;
+}
+.buy-common-list-btn-5{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	background-color: #aaaaaa;
+	display: block;
+	border-radius: 8px;
+	margin-top: 10px;
+}
+.buy-common-list-btn-6{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	background-color: #ffa200;
+	display: block;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+.buy-common-list-btn-7{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	background-color: #E60000;
+	display: block;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+.buy-common-list-btn-8{
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	color: #FFF;
+	background-color: #00A1FF;
+	display: block;
+	border-radius: 8px;
+	margin-top: 6px;
+}
+.buy-common-list-btn-8:hover{
+	color: #FFFFFF;
+}

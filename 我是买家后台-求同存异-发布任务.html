@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>孟婆买家后台-求同存异-发布任务</title>
+		<link href="css/buyer.css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-1.11.1.js"	></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<link rel="stylesheet" href="css/bootstrap.css" />		
+		<link rel="stylesheet" href="css/buyer-common-task.css" />
+	</head>
+	<body>
+
+						<!--头部开始-->
+			<div class="backer">
+				<img src="img/logo.png">
+				<div class="backer-rightbox">
+					<a class="backer-buyer" href="我是买家后台-账户概述.html">我是买家</a>
+					<a class="backer-soilder" href="我是卖家后台-账户概述.html">我是卖家</a>
+					<a href="#" class="backer-car">10</a>
+					<a href="#" class="backer-message">10</a>
+					<div class="backer-ball"></div>
+				</div>				
+			</div>
+
+						<!--头部结束-->
+						<!--选项卡开始-->	
+        	<aside class="left-side col-md-2" style="padding: 20px 0;">
+                <section class="sidebar">
+                    <ul class="sidebar-menu">
+                        <li>
+                            <a href="我是买家后台-账户概述.html" >
+                                <i class="glyphicon glyphicon-user"></i> 账户概述
+                            </a>
+                        </li>
+                        <!--<li>
+                            <a href="我是卖家后台-订单管理.html" >
+                                <i class="glyphicon glyphicon-list-alt"></i> 订单管理
+                            </a>
+                        </li>                  -->
+                        <li>
+                            <a href="我是买家后台-友链管理.html" >
+                                <i class="glyphicon glyphicon-link"></i> 友链管理
+                            </a>
+                        </li>                        
+
+                        <!--<li>
+                            <a href="我是卖家后台-友情套餐.html">
+                                <i class="glyphicon glyphicon-gift"></i> 友链套餐
+                            </a>
+                        </li>-->
+                        <li>
+                            <a href="我是买家后台-求同存异.html" class="sidebar-menu-active">
+                                <i class="glyphicon glyphicon-briefcase"></i> 求同存异
+                            </a>
+                        </li>
+                        <!--<li>
+                            <a href="我是卖家后台-免费换链.html">
+                                <i class="glyphicon glyphicon-usd"></i> 免费换链
+                            </a>
+                        </li>-->
+                        
+                        <li>
+                            <a href="我是买家后台-写作任务.html">
+                                <i class="glyphicon glyphicon-pencil"></i> 写作任务
+                            </a>
+                        </li>
+                        <li>
+                            <a href="我是买家后台-任务大厅.html">
+                                <i class="glyphicon glyphicon-folder-open"></i> 任务大厅
+                            </a>
+                        </li>  
+                        <li>
+                            <a href="我是买家后台-微世界.html">
+                                <i class="glyphicon glyphicon-globe" style="margin-left: -14px;"></i> 微世界
+                            </a>
+                        </li>     
+                        <li>
+                            <a href="我是买家后台-微信代运营.html">
+                                <i class="glyphicon glyphicon-compressed" style="margin-left: 34px;"></i> 微世界代运营
+                            </a>
+                        </li>                          
+                    </ul>
+                </section>
+            </aside>
+            			<!--选项卡结束-->
+           				<!--内容开始-->            			
+    <aside class="col-md-10 right-side" >
+    	<div class="buyer-common-task-topdiv">
+    		发布任务
+    	</div>
+    	<div class="buy-common-task-content">
+    		<div class="buy-common-task-content-typeone">
+    			<span>行业需求：</span>
+    			<select name="直播行业友链">
+    				<option value="直播行业友链">直播行业友链</option>
+    				<option value="斗鱼直播">斗鱼直播</option>
+    				<option value="虎牙直播">虎牙直播</option>
+    				<option value="全民直播">全民直播</option>
+    			</select>
+    		</div>
+    		<div class="buy-common-task-content-typeone">
+    			<span>链接类别：</span>
+    			<select name="链接类别">
+    				<option value="休闲娱乐">休闲娱乐</option>
+    				<option value="熊猫星秀">熊猫星秀</option>
+    				<option value="英雄联盟">英雄联盟</option>
+    				<option value="绝地求生">绝地求生</option>
+    			</select>
+    		</div>    
+    		<div class="buy-common-task-content-typetwo">
+    			<span>关键词：</span>
+				<input type="text" name="" id="" placeholder="请输入您的网站关键词"/>
+    		</div>  
+    		<div class="buy-common-task-content-typethree">
+    			<span>百度收录：= ></span>
+    			<select name="链接类别">
+    				<option value="0">0</option>
+    				<option value="1">1</option>
+    				<option value="2">2</option>
+    				<option value="3">3</option>
+    			</select>
+    		</div>     	
+    		<div class="buy-common-task-content-typethree">
+    			<span>百度权重：= ></span>
+    			<select name="链接类别">
+    				<option value="0">0</option>
+    				<option value="1">1</option>
+    				<option value="2">2</option>
+    				<option value="3">3</option>
+    			</select>
+    		</div>  
+    		<div class="buy-common-task-content-typefour">
+    			<span>求购数量：</span>
+				<input type="text" name="" id="" />
+				<i>（求购数量最低数量限制）</i>
+    		</div> 
+    		<div class="buy-common-task-content-typefive clearfix">
+    			<span>求购要求：</span>
+				<textarea name="" rows="" cols="" maxlength="50"></textarea>
+				<i>（填写求购需求，最多输入50字）</i>
+    		</div>  
+    		<div class="buy-common-task-content-typesix">
+    			<span>求购价格：</span>
+				<input type="text" name="" id="" />元
+    		</div> 
+    		<div class="buy-common-notice">
+    			<div class="col-md-4"></div>	    	
+	    		<div class="buy-common-notice-word">
+	    			<input type="checkbox" name="" id="" class="buy-common-task-checkbox "/>
+	    			<span>我已阅读并接受 《孟婆网任务发布协议(试行)》</span>
+	    		</div>
+	    		<div class="col-md-4"></div>
+	    		<a href="我是买家后台-求同存异.html" class="buy-common-bottom-a1">返回</a>
+	    		<a href="" class="buy-common-bottom-a2">发布需求</a>
+    		</div>
+    	</div>
+    	
+    	
+    </aside>   			            			
+            			<!--内容结束-->       	
+	</body>
+</html>

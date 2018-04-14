@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>微世界-微信阅读</title>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"	></script>
+    <script type="text/javascript" src="js/bootstrap.js" ></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/Writing-Platform.css" />
+    <link rel="stylesheet" href="css/nav-meal.css" />
+    <link rel="stylesheet" href="css/Chain of friends and trade.css" />
+    <link rel="stylesheet" href="css/small-world.css" />
+</head>
+<body style="background-color: #F1F1F1;">
+
+<!--辅助开始-->
+
+<nav class="navbar navbar-inverse sidebar" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+        <li class="siderbar-height"></li>
+        <li class="sidebar-brand"> <a href="我是买家后台-账户概述.html"> <img src="img/sidebar-person.png" title="会员中心"> </a> </li>
+        <li> <a href="#"> <img src="img/sidebar-woman.png" title="客服中心"> </a> </li>
+        <li> <a href="#"> <img src="img/sidebar-car.png" title="购物车"></a> </li>
+        <li> <a href="用户反馈.html"> <img src="img/sidebar-tell.png" title="意见反馈"></a> </li>
+        <li> <a href="#"> <img src="img/sidebar-up.png" title="返回顶部"> </a> </li>
+    </ul>
+</nav>
+<!--辅助结束-->
+<div class="navbar-fixed-top">
+	<!--顶部开始-->
+	<div class="container-fluid" style="background-color:#fff">
+		<div class="container">
+			<ul class="pull-left">
+				<li class="pull-left" ><a href="友链首页.html">首页</a></li>
+				<li class="pull-left" style="padding-left: 20px;"><a href="站长咨询.html">站长资讯</a></li>
+			</ul>
+			<ul class="pull-right">
+				<li class="pull-left"> <a href="登录.html">登录丨</a></li>
+				<li class="pull-left"> <a href="注册.html">注册</a></li>
+				<li class="pull-left" style="padding-left: 30px;"> <a href="帮助中心.html">帮助中心</a><span class="caret"></span></li>
+			</ul>
+		</div>
+	</div>
+	<!--顶部结束-->
+	<!--导航开始-->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header navbar-img">
+				<img src="img/logo.png" />
+			</div>
+			<ul class="trans">
+				<li class="trans-1 "><a class="index-color" href="友链首页.html" >首页</a></li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >友链买卖</a>
+					<ul class="dropdown-menu">
+						<li><a href="友链买卖.html">友链买卖</a></li>
+						<li class="divider"></li>
+						<li><a href="友链买卖.html" class="dropdown-menu-li">1元链接</a></li>
+						<li class="dropdown-menu-li"><a href="友链买卖.html">2元链接</a></li>
+						<li class="dropdown-menu-li"><a href="友链买卖.html">灰色地带</a></li>
+						<li class="dropdown-menu-li"><a href="友链买卖.html">推荐链接</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >友链套餐</a>
+					<ul class="dropdown-menu">
+						<li><a href="友链套餐.html">友链套餐</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="友链套餐-任性包年.html">任性包年</a></li>
+						<li class="dropdown-menu-li"><a href="友链套餐-求同存异.html">求同存异</a></li>
+						<li class="dropdown-menu-li"><a href="友链套餐-免费换链.html">免费换链</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >写作任务</a>
+					<ul class="dropdown-menu">
+						<li><a href="写作平台.html">写作任务</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="写作平台.html">网站原创</a></li>
+						<li class="dropdown-menu-li"><a href="写作平台.html">伪原创</a></li>
+						<li class="dropdown-menu-li"><a href="写作平台.html">网站优化</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >任务大厅</a>
+					<ul class="dropdown-menu">
+						<li><a href="任务大厅.html">任务大厅</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="任务大厅.html">SEO搜索</a></li>
+						<li class="dropdown-menu-li"><a href="任务大厅.html">点击广告</a></li>
+						<li class="dropdown-menu-li"><a href="任务大厅.html">浏览广告</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >微世界</a>
+					<ul class="dropdown-menu">
+						<li><a href="微世界-微信阅读.html">微世界</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="微世界-微信阅读.html">微信阅读</a></li>
+						<li class="dropdown-menu-li"><a href="微世界-微信加粉.html">微信加粉</a></li>
+						<li class="dropdown-menu-li"><a href="微世界-微信代运营.html">微信运营</a></li>
+					</ul>
+				</li>
+				<span class="dropdown drop-span" >
+					<b href="#" class="dropdown-toggle drop-b" data-toggle="dropdown" >发布/买卖</b>
+					<ul class="dropdown-menu drop-twice">
+						<li class="dropdown-menu-li"><a href="我是卖家后台-友情套餐.html.html">出售友情链接</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-免费换链.html">发布需求链接</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-写作任务.html">发布写作任务</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-任务大厅.html">发布点击任务</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-微世界.html">发布微信任务</a></li>
+					</ul>
+				</span>
+					<!-- <span class="dropdown" >
+						<a href="#" class="dropdown-toggle btn-a" data-toggle="dropdown">
+							发布/买卖
+						</a>
+						<ul class="dropdown-menu drop-twice">
+							<li class="dropdown-menu-li"><a href="我是卖家后台-友情套餐.html.html" class="drop-width">出售友情链接</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-免费换链.html">发布需求链接</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-写作任务.html">发布写作任务</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-任务大厅.html">发布点击任务</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-微世界.html">发布微信任务</a></li>
+						</ul>
+					</span> -->
+
+			</ul>
+		</div>
+	</nav>
+
+	<!--导航结束-->
+</div>
+<!--搜索开始-->
+<nav class="navbar publicmartop">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="友链首页.html" style="font: 400 14px/68px '微软雅黑';color: #666666;">首页</a> > <span style="font: 400 14px/68px '微软雅黑';color: #00A1FF;">微世界</span>
+        </div>
+        <!-- <form action="" class="navbar-form navbar-right">
+            <div class="input-group ">
+                <input type="text" name=""  placeholder="请输入网站名称/域名" class="form-control pull-left" style="transform: translateY(30%);"/>
+            </div>
+            <a href="#" class="btn btn-primary pull-right" style="transform: translateY(30%);border-radius:0 8px 8px 0;background-color: #00A1FF;">搜索</a>
+        </form> -->
+    </div>
+</nav>
+
+                                                        <!--搜索结束-->
+                                                        <!--选项开始-->
+
+<div class="container">
+    <div class="nav-meal">
+        <div class="nav-meal-nav">
+            <div>类别筛选&nbsp;&nbsp;:</div>
+            <a href="#">不限 </a><a class="nav-meal-nav-active" href="微世界-微信阅读.html">微信阅读 </a><a href="微世界-微信加粉.html">微信加粉 </a><a href="微世界-微信代运营.html">微信代运营 </a><a href="我是买家后台-微世界.html">直达后台 </a>
+        </div>
+        <div class="nav-meal-nav">
+            <div>价格&nbsp;&nbsp;:</div>
+            <a class=" nav-meal-nav-active " href="#" style="padding-left: 48px;">不限 </a>
+            <a href="#">0-20元    </a><a href="#">20-50元   </a><a href="#">50-100元 </a>
+            <a href="#">100-200元     </a><a href="#"> 200-500元 </a>
+            <div class="nav-meal-nav-box">
+                <input type="text" name=""  class="panner-search-trade-text-left" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+                <!-- <div class="tradeinput-divider"></div> -->
+    						<span style="margin-right:10px;">至</span>
+    						<input type="text" name=""  class="panner-search-trade-text-right" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+    						<span>元</span>
+            </div>
+        </div>
+    </div>
+</div>
+                                                            <!--选项结束-->
+                                                            <!--小方块开始-->
+<div class="container">
+    <div class="nav-meal-box">
+        <div class="nav-meal-box-rank">
+            综合排序
+        </div>
+        <div class="nav-meal-box-price">
+            价格&nbsp;↑
+        </div>
+        <div class="nav-meal-box-right">
+            共<span>6666</span>件商品  <i>1</i>/<b>100</b>
+            <button class="plantform-choose-btn1" ><</button>
+            <button class="plantform-choose-btn2">></button>
+            <!-- <a href="#" class="btn btn-lg btn-primary  nav-button">出售商品</a> -->
+        </div>
+    </div>
+</div>
+                                                        <!--小方块结束-->
+                                                        <!--内容开始-->
+<div class="container small-world">
+    <div class="small-world-top">
+        <div class="small-world-top-1">任务需求</div>
+        <div class="small-world-top-2">需求数量</div>
+        <div class="small-world-top-3">任务金额</div>
+        <div class="small-world-top-4">操作</div>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+                <img src="img/quick.png" alt="">
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+                <img src="img/quick.png" alt="">
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+                <img src="img/fast.png" alt="">
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+                <img src="img/fast.png" alt="">
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+                <img src="img/fast.png" alt="">
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+    <div class="small-world-content-typeone">
+        <img src="img/nav-content-2.png" alt="">
+        <div class="small-world-content-word">
+            <div class="small-world-content-word-left">
+                14个企业备案网站，稳定的服务器，真实可信的企业
+                资质备案信息，关键词排名效果好，优惠打包价6折
+            </div>
+            <div class="small-world-content-word-right">
+
+            </div>
+        </div>
+        <div class="small-world-content-num">
+            求购微信阅读：300个
+        </div>
+        <div class="small-world-content-money">
+            ￥300.00
+        </div>
+        <a href="#" class="small-world-content-book">立即签单</a>
+    </div>
+
+        <!--页码-->
+
+    <div aria-label="Page navigation " class="page-header-margin">
+      <span class="navigation-add">总共454546465条</span>
+        <ul class="pagination pull-right navigation-up">
+          <li>
+            <a href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="active"><a href="#">1</a></li>
+          <li><a href="#">2</a></li>
+          <li><a href="#">3</a></li>
+          <li><a href="#">4</a></li>
+          <li><a href="#">5</a></li>
+          <li><a href="#">...</a></li>
+          <li><a href="#">100</a></li>
+          <li>
+            <a href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+            <em class="navigation-num">共<i>100</i>页</em>
+            <!-- <b class="navigation-net">仅显示成单过的网站</b> -->
+          </li>
+        </ul>
+    </div>
+</div>
+
+                                                    <!--内容结束-->
+                                                    <!--底部开始-->
+    <footer class="login-footer" style="margin-top:40px ">
+        <div class="container">
+            <img src="img/buyer.png" class="login-footer-img"/>
+            <dl class="login-footer-info">
+                <dt> 我是买家</dt>
+                <dd><a href="#">购买友情链接</a></dd>
+                <dd><a href="#">购买链接套餐</a></dd>
+                <dd><a href="#">购买包年套餐</a></dd>
+                <dd><a href="#">买家须知</a></dd>
+            </dl>
+
+
+            <img src="img/seller.png" class="login-footer-img"/>
+            <dl class="login-footer-info">
+                <dt> 我是买家</dt>
+                <dd><a href="#">出售友情链接</a></dd>
+                <dd><a href="#">出售包年套餐</a></dd>
+                <dd><a href="#">卖家须知</a></dd>
+            </dl>
+
+            <img src="img/write.png" class="login-footer-img"/>
+            <dl class="login-footer-info">
+                <dt> 写作任务</dt>
+                <dd><a href="#">发布原创文章</a></dd>
+                <dd><a href="#">发布伪原创文章</a></dd>
+                <dd><a href="#">发布论文文章</a></dd>
+                <dd><a href="#">发布须知</a></dd>
+            </dl>
+
+            <img src="img/help.png" class="login-footer-img"/>
+            <dl class="login-footer-info">
+                <dt>SEO搜索</dt>
+                <dd><a href="#">发布SEO点击任务</a></dd>
+                <dd><a href="#">发布浏览任务</a></dd>
+                <dd><a href="#">微信关注加粉</a></dd>
+                <dd><a href="#">微信公众号代运营</a></dd>
+                <dd><a href="#">发布须知</a></dd>
+            </dl>
+
+            <div class="thumbnail">
+                <img src="img/publictwocode.png" />
+                <div class="caption">
+                    微信公众号
+                </div>
+            </div>
+            <div class="thumbnail pull-right">
+                <img src="img/publictwocode.png" />
+                <div class="caption">
+                    新浪微博
+                </div>
+            </div>
+            <ul class="login-footer-help">
+                <li>关于孟婆</li>
+                <li>联系方式</li>
+                <li>平台公告</li>
+                <li>帮助中心</li>
+            </ul>
+        </div>
+    </footer>
+    <footer class="login-footer-1">
+        Copyright (C) 2017 站长资源平台 All Rights Resterved
+    </footer>
+                                                    <!--底部结束-->
+</body>
+</html>

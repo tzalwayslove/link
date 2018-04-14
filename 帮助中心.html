@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>帮助中心</title>
+    <script type="text/javascript" src="js/jquery-1.11.1.js"	></script>
+    <script type="text/javascript" src="js/bootstrap.js" ></script>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="css/feedback.css" />
+</head>
+<body style="background-color: #f1f1f1;">
+<!--辅助开始-->
+
+<nav class="navbar navbar-inverse sidebar" id="sidebar-wrapper" role="navigation">
+    <ul class="nav sidebar-nav">
+        <li class="siderbar-height"></li>
+        <li class="sidebar-brand"> <a href="我是买家后台-账户概述.html"> <img src="img/sidebar-person.png" title="会员中心"> </a> </li>
+        <li> <a href="#"> <img src="img/sidebar-woman.png" title="客服中心"> </a> </li>
+        <li> <a href="#"> <img src="img/sidebar-car.png" title="购物车"></a> </li>
+        <li> <a href="用户反馈.html"> <img src="img/sidebar-tell.png" title="意见反馈"></a> </li>
+        <li> <a href="#"> <img src="img/sidebar-up.png" title="返回顶部"> </a> </li>
+    </ul>
+</nav>
+<!--辅助结束-->
+<div class="navbar-fixed-top">
+	<!--顶部开始-->
+	<div class="container-fluid" style="background-color:#fff">
+		<div class="container">
+			<ul class="pull-left">
+				<li class="pull-left" ><a href="友链首页.html">首页</a></li>
+				<li class="pull-left" style="padding-left: 20px;"><a href="站长咨询.html">站长资讯</a></li>
+			</ul>
+			<ul class="pull-right">
+				<li class="pull-left"> <a href="登录.html">登录丨</a></li>
+				<li class="pull-left"> <a href="注册.html">注册</a></li>
+				<li class="pull-left" style="padding-left: 30px;"> <a href="帮助中心.html">帮助中心</a><span class="caret"></span></li>
+			</ul>
+		</div>
+	</div>
+	<!--顶部结束-->
+	<!--导航开始-->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<div class="navbar-header navbar-img">
+				<img src="img/logo.png" />
+			</div>
+			<ul class="trans">
+				<li class="trans-1 "><a class="index-color" href="友链首页.html" >首页</a></li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >友链买卖</a>
+					<ul class="dropdown-menu">
+						<li><a href="友链买卖.html">友链买卖</a></li>
+						<li class="divider"></li>
+						<li><a href="友链买卖.html" class="dropdown-menu-li">1元链接</a></li>
+						<li class="dropdown-menu-li"><a href="友链买卖.html">2元链接</a></li>
+						<li class="dropdown-menu-li"><a href="友链买卖.html">灰色地带</a></li>
+						<li class="dropdown-menu-li"><a href="友链买卖.html">推荐链接</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >友链套餐</a>
+					<ul class="dropdown-menu">
+						<li><a href="友链套餐.html">友链套餐</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="友链套餐-任性包年.html">任性包年</a></li>
+						<li class="dropdown-menu-li"><a href="友链套餐-求同存异.html">求同存异</a></li>
+						<li class="dropdown-menu-li"><a href="友链套餐-免费换链.html">免费换链</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >写作任务</a>
+					<ul class="dropdown-menu">
+						<li><a href="写作平台.html">写作任务</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="写作平台.html">网站原创</a></li>
+						<li class="dropdown-menu-li"><a href="写作平台.html">伪原创</a></li>
+						<li class="dropdown-menu-li"><a href="写作平台.html">网站优化</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >任务大厅</a>
+					<ul class="dropdown-menu">
+						<li><a href="任务大厅.html">任务大厅</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="任务大厅.html">SEO搜索</a></li>
+						<li class="dropdown-menu-li"><a href="任务大厅.html">点击广告</a></li>
+						<li class="dropdown-menu-li"><a href="任务大厅.html">浏览广告</a></li>
+					</ul>
+				</li>
+				<li class="dropdown" >
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" >微世界</a>
+					<ul class="dropdown-menu">
+						<li><a href="微世界-微信阅读.html">微世界</a></li>
+						<li class="divider"></li>
+						<li class="dropdown-menu-li"><a href="微世界-微信阅读.html">微信阅读</a></li>
+						<li class="dropdown-menu-li"><a href="微世界-微信加粉.html">微信加粉</a></li>
+						<li class="dropdown-menu-li"><a href="微世界-微信代运营.html">微信运营</a></li>
+					</ul>
+				</li>
+				<span class="dropdown drop-span" >
+					<b href="#" class="dropdown-toggle drop-b" data-toggle="dropdown" >发布/买卖</b>
+					<ul class="dropdown-menu drop-twice">
+						<li class="dropdown-menu-li"><a href="我是卖家后台-友情套餐.html.html">出售友情链接</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-免费换链.html">发布需求链接</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-写作任务.html">发布写作任务</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-任务大厅.html">发布点击任务</a></li>
+						<li class="dropdown-menu-li"><a href="我是卖家后台-微世界.html">发布微信任务</a></li>
+					</ul>
+				</span>
+					<!-- <span class="dropdown" >
+						<a href="#" class="dropdown-toggle btn-a" data-toggle="dropdown">
+							发布/买卖
+						</a>
+						<ul class="dropdown-menu drop-twice">
+							<li class="dropdown-menu-li"><a href="我是卖家后台-友情套餐.html.html" class="drop-width">出售友情链接</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-免费换链.html">发布需求链接</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-写作任务.html">发布写作任务</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-任务大厅.html">发布点击任务</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-微世界.html">发布微信任务</a></li>
+						</ul>
+					</span> -->
+
+			</ul>
+		</div>
+	</nav>
+
+	<!--导航结束-->
+</div>
+<!--内容开始-->
+<div class="container publicmartop">
+    <div class="feedback-top">支付问题</div>
+    <div class="helpcontent col-md-9">
+        <div class="helptype">
+            <div class="helptype-top">
+                <img src="img/minus.png" alt="隐藏" class="helptype-top-img">
+                <span>1.为什么支付宝提示已经支付，但是订单信息却显示还未支付成功，且充值的钱也没有到余额中？</span>
+            </div>
+            <div class="helptype-content">
+                答：请您放心，这是可能由于您关闭了支付宝自动跳转页面或网络故障，导致支付宝数据与我们系统数据暂时没有同步。
+                原则上24小时内支付信息会同步正确，建议您注意查看充值记录。如24小时内充值的金额没有到余额中，可以联系客服进行解决，
+                给您带来的不便，请谅解！
+            </div>
+        </div>
+        <div class="helptype">
+            <div class="helptype-top">
+                <img src="img/plus.png" alt="显示" class="helptype-top-img">
+                <span>2.为什么支付宝在线支付时，提示“本次支付使用的账户与原先的不一致，请使用原来的账户，或重新创建交易付款”？</span>
+            </div>
+            <div class="helptype-content "style="display: none">
+                答：请您放心，这是可能由于您关闭了支付宝自动跳转页面或网络故障，导致支付宝数据与我们系统数据暂时没有同步。
+                原则上24小时内支付信息会同步正确，建议您注意查看充值记录。如24小时内充值的金额没有到余额中，可以联系客服进行解决，
+                给您带来的不便，请谅解！
+            </div>
+        </div>
+        <div class="helptype">
+            <div class="helptype-top">
+                <img src="img/plus.png" alt="显示" class="helptype-top-img">
+                <span>3.如何查询我是否支付成功了？</span>
+            </div>
+            <div class="helptype-content "style="display: none">
+                答：请您放心，这是可能由于您关闭了支付宝自动跳转页面或网络故障，导致支付宝数据与我们系统数据暂时没有同步。
+                原则上24小时内支付信息会同步正确，建议您注意查看充值记录。如24小时内充值的金额没有到余额中，可以联系客服进行解决，
+                给您带来的不便，请谅解！
+            </div>
+        </div>
+        <div class="helptype">
+            <div class="helptype-top">
+                <img src="img/plus.png" alt="显示" class="helptype-top-img">
+                <span>4.如何充值？</span>
+            </div>
+            <div class="helptype-content "style="display: none">
+                答：请您放心，这是可能由于您关闭了支付宝自动跳转页面或网络故障，导致支付宝数据与我们系统数据暂时没有同步。
+                原则上24小时内支付信息会同步正确，建议您注意查看充值记录。如24小时内充值的金额没有到余额中，可以联系客服进行解决，
+                给您带来的不便，请谅解！
+            </div>
+        </div>
+        <div class="helptype">
+            <div class="helptype-top">
+                <img src="img/plus.png" alt="显示" class="helptype-top-img">
+                <span>5.为什么支付宝付款了，订单还没完成？</span>
+            </div>
+            <div class="helptype-content "style="display: none">
+                答：请您放心，这是可能由于您关闭了支付宝自动跳转页面或网络故障，导致支付宝数据与我们系统数据暂时没有同步。
+                原则上24小时内支付信息会同步正确，建议您注意查看充值记录。如24小时内充值的金额没有到余额中，可以联系客服进行解决，
+                给您带来的不便，请谅解！
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 helpside">
+        <div class="helpside-content">
+            <!--<a href="#" class="feedside-content-1 col-md-10 col-md-push-1">联系我们</a>-->
+            <!--<a href="关于我们.html" class="feedside-content-2 col-md-10 col-md-push-1">关于我们<img src="img/feedicon-2.png" alt="" /></a>-->
+            <!--<a href="站长咨询.html" class="feedside-content-2 col-md-10 col-md-push-1">站长资讯 <img src="img/feedicon-2.png" alt="" /></a>-->
+            <!--<a href="用户反馈.html" class="feedside-content-3 col-md-10 col-md-push-1">用户反馈<img src="img/feedicon-1.png" alt="" /></a>-->
+            <a href="#" class="helpside-content-1 col-md-10 col-md-push-1">
+                <img src="img/help-icon.png" alt="" style="margin: -4px 10px 0 0">
+                常见问题
+            </a>
+            <a href="#" class="helpside-content-2 col-md-10 col-md-push-1">
+                支付问题
+                <img src="img/feedicon-3.png" alt="">
+            </a>
+            <a href="#" class="helpside-content-3 col-md-10 col-md-push-1">
+                交易相关
+                <img src="img/feedicon-1.png" alt="">
+            </a>
+            <a href="#" class="helpside-content-3 col-md-10 col-md-push-1">
+                问题答疑
+                <img src="img/feedicon-1.png" alt="">
+            </a>
+            <a href="#" class="helpside-content-3 col-md-10 col-md-push-1">
+                用户协议
+                <img src="img/feedicon-1.png" alt="">
+            </a>
+            <a href="#" class="helpside-content-3 col-md-10 col-md-push-1">
+                平台公告
+                <img src="img/feedicon-1.png" alt="">
+            </a>
+            <a href="#" class="helpside-content-3 col-md-10 col-md-push-1">
+                广告法
+                <img src="img/feedicon-1.png" alt="" style="margin-left: 10px">
+            </a>
+            <div class="feedqq col-md-10 col-md-push-1">
+                <div class="feedqq-1">
+                  <!-- <a href="tencent://message/?uin='+model.data.qq+'&Site=&Menu=yes">
+                    <img src="img/feedqq.png" alt="" />
+                    <span>在线咨询</span>
+                  </a> -->
+                  <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=12345678&site=qq&menu=yes">
+                    <img border="0" src="img/feedqq.png" alt="点击这里给我发消息" title="点击这里给我发消息">
+                      <span>在线咨询</span>
+                  </a>
+                </div>
+                <div class="feedqq-2">
+                    <img src="img/feedclock.png" alt="" />
+                    <span>服务时间</span>
+                </div>
+                <div class="feedqq-3">
+                    <span>周一至周五：9:00-18:00</span>
+                </div>
+                <div class="feedqq-4">
+                    <span>-节假日除外-</span>
+                </div>
+            </div>
+            <div class="feedwx">
+                <img src="img/feedwx.png" alt="" />
+                <span>微信二维码</span>
+            </div>
+            <div class="feedwx">
+                <img src="img/feedwx.png" alt="" />
+                <span>新浪二维码</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--内容结束-->
+<!--底部开始-->
+<footer class="login-footer">
+    <div class="container">
+        <img src="img/buyer.png" class="login-footer-img"/>
+        <dl class="login-footer-info">
+            <dt> 我是买家</dt>
+            <dd><a href="#">购买友情链接</a></dd>
+            <dd><a href="#">购买链接套餐</a></dd>
+            <dd><a href="#">购买包年套餐</a></dd>
+            <dd><a href="#">买家须知</a></dd>
+        </dl>
+
+
+        <img src="img/seller.png" class="login-footer-img"/>
+        <dl class="login-footer-info">
+            <dt> 我是买家</dt>
+            <dd><a href="#">出售友情链接</a></dd>
+            <dd><a href="#">出售包年套餐</a></dd>
+            <dd><a href="#">卖家须知</a></dd>
+        </dl>
+
+        <img src="img/write.png" class="login-footer-img"/>
+        <dl class="login-footer-info">
+            <dt> 写作任务</dt>
+            <dd><a href="#">发布原创文章</a></dd>
+            <dd><a href="#">发布伪原创文章</a></dd>
+            <dd><a href="#">发布论文文章</a></dd>
+            <dd><a href="#">发布须知</a></dd>
+        </dl>
+
+        <img src="img/help.png" class="login-footer-img"/>
+        <dl class="login-footer-info">
+            <dt>SEO搜索</dt>
+            <dd><a href="#">发布SEO点击任务</a></dd>
+            <dd><a href="#">发布浏览任务</a></dd>
+            <dd><a href="#">微信关注加粉</a></dd>
+            <dd><a href="#">微信公众号代运营</a></dd>
+            <dd><a href="#">发布须知</a></dd>
+        </dl>
+
+        <div class="thumbnail">
+            <img src="img/publictwocode.png" />
+            <div class="caption">
+                微信公众号
+            </div>
+        </div>
+        <div class="thumbnail pull-right">
+            <img src="img/publictwocode.png" />
+            <div class="caption">
+                新浪微博
+            </div>
+        </div>
+        <ul class="login-footer-help">
+            <li>关于孟婆</li>
+            <li>联系方式</li>
+            <li>平台公告</li>
+            <li>帮助中心</li>
+        </ul>
+    </div>
+</footer>
+<footer class="login-footer-1">
+    Copyright (C) 2017 站长资源平台 All Rights Resterved
+</footer>
+<!--底部结束-->
+<script>
+    var btnArr = document.getElementsByClassName("helptype-top-img");
+    var wordArr = document.getElementsByClassName("helptype-content");
+    btnArr[0].onclick=fn1;
+        function fn1() {
+        if(btnArr[0].alt === "隐藏"){
+            wordArr[0].style.display = "none";
+            btnArr[0].src ="img/plus.png";
+            btnArr[0].alt ="显示";
+        }else {
+            wordArr[0].style.display = "block";
+            btnArr[0].src ="img/minus.png";
+            btnArr[0].alt ="隐藏";
+        }
+    }
+    btnArr[1].onclick=fn2;
+
+        function fn2() {
+        if(btnArr[1].alt === "显示"){
+            wordArr[1].style.display = "block";
+            btnArr[1].src ="img/minus.png";
+            btnArr[1].alt ="隐藏";
+        }else {
+
+            wordArr[1].style.display = "none";
+            btnArr[1].src ="img/plus.png";
+            btnArr[1].alt ="显示";
+        }
+    }
+</script>
+</body>
+</html>

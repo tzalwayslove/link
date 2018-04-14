@@ -1,0 +1,106 @@
+.register{
+	height: 680px;
+	background-color: #f1f1f1;
+}
+.registe-height{
+	height: 40px;
+	width: 400px;
+}
+.register-module{
+	height: 490px;
+	width: 400px;
+	border-radius: 8px;
+	background-color: #fff;
+	margin-left: 375px;
+
+}
+.registe-container{
+	width: 380px;
+	margin: 0 auto;
+	position: relative;
+	font-size: 14px;
+}
+.registe-input-1{
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 38px;
+	border-bottom: 1px solid #AAAAAA;
+	padding-left: 40px;
+	margin-bottom: 20px;
+	background:url(../img/telephone.png) no-repeat 0 8px;
+}
+.registe-input-3{
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 38px;
+	border-bottom: 1px solid #AAAAAA;
+	padding-left: 40px;
+	margin-bottom: 20px;
+	background:url(../img/register-password.png) no-repeat 0 8px;
+}
+.registe-input-2{
+	outline: none;
+	border: none;
+	width: 240px;
+	height: 38px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #AAAAAA;
+	padding-left: 40px;
+	background:url(../img/message.png) no-repeat 0 8px;
+}
+.registe-container button{
+	width: 120px;
+	height: 38px;
+	border-radius:8px ;
+	background-color: #aaaaaa;
+	color: #d7d7d7;
+	outline: none;
+	margin-left: 16px;
+}
+.registe-input-checkbox{
+	width: 13px;
+	float: left;
+	height: 13px;
+	margin-top: 8px;
+	margin-left:4px;
+}
+.registe-input-checkbox-word{
+	float: left;
+	font: 400 12px/24px "微软雅黑";
+	padding-left:20px ;
+}
+.registe-input-checkbox-word a{
+	color: #00A1FF;
+}
+.registe-button-1{
+	width: 380px;
+	height: 40px;
+	outline: none;
+	border: none;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: #00A1FF;
+	border-radius: 6px;
+}
+.registe-button-1 a{
+	text-align: center;
+	color: #FFFFFF;
+	font: 400 20px/40px "微软雅黑";
+}
+.registe-button-2{
+	width: 380px;
+	height: 40px;
+	outline: none;
+	border: 1px solid #00A1FF;
+	margin-top: 20px;
+	margin-left: 10px;
+	background-color: #FFF;
+	border-radius: 6px;
+}
+.registe-button-2 a{
+	text-align: center;
+	color: #00A1FF;
+	font: 400 20px/40px "微软雅黑";
+}

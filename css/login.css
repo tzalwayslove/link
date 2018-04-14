@@ -1,0 +1,295 @@
+.navbar-fixed-top a{
+	font-size: 14px;
+}
+.publicmartop{
+	margin-top: 111px;
+}
+.divider0{
+	width: 100%;
+	height: 1px;
+	background-color: #dddddd;
+}
+.navbar-img{
+	padding-top: 14px;
+	padding-bottom: 12px;
+}
+.trans > li:hover .dropdown-menu {display: block;}
+.trans-1{
+	margin-left: 120px;
+}
+.trans li{
+	float: left;
+	margin-right: 70px;
+}
+.trans a{
+	font: 400 18px/80px "微软雅黑";
+}
+/* .trans-1 a{
+	color: #00a1ff;
+} */
+.dropdown-menu a{
+	display: block;
+	width: 108px;
+}
+.drop-width{
+	width: 120px;
+}
+.btn-style{
+	background-color: #3eb5f6;
+	margin-top: 20px;
+	height: 40px;
+	width: 120px;
+	margin-left: 5px;
+	font: 400 14px/20px "微软雅黑";
+}
+.btn-style img{
+	margin-left:10px ;
+}
+.login{
+	background: url(../img/login-banner.png) no-repeat;
+	position: relative;
+	height: 610px;
+}
+.login-module{
+	height: 300px;
+	width: 300px;
+	border-radius: 8px;
+	background-color: #fff;
+	margin-top: 140px;
+
+}
+.login-module-info{
+	font:400 18px/56px "微软雅黑";
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+.login-module-info-user{
+	width: 260px;
+	height: 40px;
+	outline: none;
+	border-radius: 15px;
+	border: 1px solid #aaaaaa;
+	margin: 20px  0 0 10px;
+	padding-left: 58px;
+	background: url(../img/person.png) no-repeat 20px 6px;
+}
+input:-ms-input-placeholder{
+    color: #AAAAAA;opacity:1;
+}
+
+input::-webkit-input-placeholder{
+    color: #AAAAAA;opacity:1;
+}
+.login-module-info-password{
+	width: 260px;
+	height: 40px;
+	outline: none;
+	border-radius: 15px;
+	border: 1px solid #aaaaaa;
+	margin: 20px  0 0 10px;
+	padding-left: 58px;
+	background: url(../img/password.png) no-repeat 20px 6px;
+}
+.login-button{
+	background-color: #00a1ff;
+	width: 260px;
+	height: 40px;
+	outline: none;
+	text-align: center;
+	border-radius: 15px;
+	margin: 20px  0 15px 10px;
+	border: none;
+}
+.login-button a{
+	width: 260px;
+	height: 40px;
+	display: block;
+	font: 400 16px/40px "微软雅黑";
+	color: #fff;
+	}
+.login-help{
+	height: 30px;
+	width: 268px;
+	font: 400 12px/30px "微软雅黑";
+	margin: 0 auto;
+}
+.login-help-1{
+	color: #00A1FF;
+}
+.login-help span{
+	margin-left: 60px;
+}
+.login-divider{
+	height: 36px;
+	position: relative;
+	text-align: center;
+	font: 400 12px/36px "微软雅黑";
+	color: #aaaaaa;
+}
+.login-divider-1{
+	width: 60px;
+	height: 1px;
+	position: absolute;
+	background-color: #AAAAAA;
+	left: 36px;
+	top: 18px;
+}
+.login-divider-2{
+	width: 60px;
+	height: 1px;
+	position: absolute;
+	background-color: #AAAAAA;
+	right: 36px;
+	top: 18px;
+}
+.login-pic-1{
+	margin: 6px 0 0 110px;
+	float: left;
+}
+.login-pic-2{
+	float: left;
+	margin: 6px 0 0 40px;
+}
+.login-footer{
+	background-color: #00082d;
+	border-bottom: 1px solid #555555;
+}
+.login-footer-img{
+	float: left;
+	padding-right: 20px;
+	padding-top: 20px;
+}
+.login-footer-info{
+	float: left;
+	padding-top: 8px;
+	padding-right: 40px;
+}
+.login-footer-info dt{
+	color: #FFFFFF;
+	font: 400 16px/48px "微软雅黑";
+}
+.login-footer-info dt:hover{
+	color: #00A1FF;
+	cursor: pointer;
+}
+.login-footer-info dd a{
+	color: #DDDDDD;
+	font: 400 14px/32px "微软雅黑";
+}
+.login-footer-info a:hover{
+	color: #00A1FF;
+	cursor: pointer;
+}
+.login-footer-help{
+	color: #FFFFFF;
+	float: left;
+	margin: 230px 0 10px -620px ;
+
+}
+.login-footer-help li{
+	float: left;
+	list-style: disc;
+	margin-left: 40px;
+	width: 100px;
+}
+.login-footer-help li:hover{
+	color: #00A1FF;
+	cursor: pointer;
+}
+.login-footer-1{
+	background-color: #00082d;
+	font: 400 14px/32px "微软雅黑";
+	color: #ffffff;
+	text-align: center;
+}
+/**侧边栏**/
+.sidebar{
+	position:fixed;
+	right:0 ;
+	top: 0;
+	width: 40px;
+	height: 1964px;
+	background-color: #000000;
+	z-index: 1240;
+}
+.sidebar li{
+	width: 40px;
+	height: 40px;
+}
+
+.sidebar .siderbar-height{
+	height: 450px;
+}
+.index-color{
+	color: #3eb5f6;
+}
+.drop-twice{
+	top:170%;
+	left:18%;
+	width:132px;
+	background-color:#3eb5f6;
+}
+.drop-twice a{
+	width: 130px;
+	padding:3px 0 !important;
+	color: #fff!important;
+}
+.btn-a{
+	font: 400 16px/30px '微软雅黑';
+	color: #FFFFFF;
+	width: 120px;
+	text-align:center;
+	border: none;
+}
+.drop-span{
+	width: 130px;
+	height: 40px;
+	background-color:#3eb5f6;
+	display: inline-block;
+	border-radius: 8px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.drop-b{
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	font: 400 16px/38px '微软雅黑';
+	color: #fff;
+}
+.trans > span:hover .dropdown-menu {display: block;}
+.drop-twice{
+	top:170%;
+	left:18%;
+	width:132px;
+	background-color:#3eb5f6;
+}
+.drop-twice a{
+	width: 130px;
+	padding:3px 0 !important;
+	color: #fff!important;
+}
+.btn-a{
+	font: 400 16px/30px '微软雅黑';
+	color: #FFFFFF;
+	width: 120px;
+	text-align:center;
+	border: none;
+}
+.drop-span{
+	width: 130px;
+	height: 40px;
+	background-color:#3eb5f6;
+	display: inline-block;
+	border-radius: 8px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.drop-b{
+	font-weight: 400;
+	text-align: center;
+	display: block;
+	font: 400 16px/38px '微软雅黑';
+	color: #fff;
+}
+.trans > span:hover .dropdown-menu {display: block;}

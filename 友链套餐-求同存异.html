@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>求同存异</title>
+		<script type="text/javascript" src="js/jquery-1.11.1.js"	></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" href="css/Chain of friends and trade.css">
+		<link rel="stylesheet" href="css/year.css" />
+		<link rel="stylesheet" href="css/nav-meal.css"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/Writing-Platform.css">
+	</head>
+	<body style="background-color: #F1F1F1;">
+	<!--辅助开始-->
+
+	<nav class="navbar navbar-inverse sidebar" id="sidebar-wrapper" role="navigation">
+		<ul class="nav sidebar-nav">
+			<li class="siderbar-height"></li>
+			<li class="sidebar-brand"> <a href="我是买家后台-账户概述.html"> <img src="img/sidebar-person.png" title="会员中心"> </a> </li>
+			<li> <a href="#"> <img src="img/sidebar-woman.png" title="客服中心"> </a> </li>
+			<li> <a href="#"> <img src="img/sidebar-car.png" title="购物车"></a> </li>
+			<li> <a href="用户反馈.html"> <img src="img/sidebar-tell.png" title="意见反馈"></a> </li>
+			<li> <a href="#"> <img src="img/sidebar-up.png" title="返回顶部"> </a> </li>
+		</ul>
+	</nav>
+	<!--辅助结束-->
+	<div class="navbar-fixed-top">
+		<!--顶部开始-->
+		<div class="container-fluid" style="background-color:#fff">
+			<div class="container">
+				<ul class="pull-left">
+					<li class="pull-left" ><a href="友链首页.html">首页</a></li>
+					<li class="pull-left" style="padding-left: 20px;"><a href="站长咨询.html">站长资讯</a></li>
+				</ul>
+				<ul class="pull-right">
+					<li class="pull-left"> <a href="登录.html">登录丨</a></li>
+					<li class="pull-left"> <a href="注册.html">注册</a></li>
+					<li class="pull-left" style="padding-left: 30px;"> <a href="帮助中心.html">帮助中心</a><span class="caret"></span></li>
+				</ul>
+			</div>
+		</div>
+		<!--顶部结束-->
+		<!--导航开始-->
+		<nav class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header navbar-img">
+					<img src="img/logo.png" />
+				</div>
+				<ul class="trans">
+					<li class="trans-1 "><a class="index-color" href="友链首页.html" >首页</a></li>
+					<li class="dropdown" >
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" >友链买卖</a>
+						<ul class="dropdown-menu">
+							<li><a href="友链买卖.html">友链买卖</a></li>
+							<li class="divider"></li>
+							<li><a href="友链买卖.html" class="dropdown-menu-li">1元链接</a></li>
+							<li class="dropdown-menu-li"><a href="友链买卖.html">2元链接</a></li>
+							<li class="dropdown-menu-li"><a href="友链买卖.html">灰色地带</a></li>
+							<li class="dropdown-menu-li"><a href="友链买卖.html">推荐链接</a></li>
+						</ul>
+					</li>
+					<li class="dropdown" >
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" >友链套餐</a>
+						<ul class="dropdown-menu">
+							<li><a href="友链套餐.html">友链套餐</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-menu-li"><a href="友链套餐-任性包年.html">任性包年</a></li>
+							<li class="dropdown-menu-li"><a href="友链套餐-求同存异.html">求同存异</a></li>
+							<li class="dropdown-menu-li"><a href="友链套餐-免费换链.html">免费换链</a></li>
+						</ul>
+					</li>
+					<li class="dropdown" >
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" >写作任务</a>
+						<ul class="dropdown-menu">
+							<li><a href="写作平台.html">写作任务</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-menu-li"><a href="写作平台.html">网站原创</a></li>
+							<li class="dropdown-menu-li"><a href="写作平台.html">伪原创</a></li>
+							<li class="dropdown-menu-li"><a href="写作平台.html">网站优化</a></li>
+						</ul>
+					</li>
+					<li class="dropdown" >
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" >任务大厅</a>
+						<ul class="dropdown-menu">
+							<li><a href="任务大厅.html">任务大厅</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-menu-li"><a href="任务大厅.html">SEO搜索</a></li>
+							<li class="dropdown-menu-li"><a href="任务大厅.html">点击广告</a></li>
+							<li class="dropdown-menu-li"><a href="任务大厅.html">浏览广告</a></li>
+						</ul>
+					</li>
+					<li class="dropdown" >
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" >微世界</a>
+						<ul class="dropdown-menu">
+							<li><a href="微世界-微信阅读.html">微世界</a></li>
+							<li class="divider"></li>
+							<li class="dropdown-menu-li"><a href="微世界-微信阅读.html">微信阅读</a></li>
+							<li class="dropdown-menu-li"><a href="微世界-微信加粉.html">微信加粉</a></li>
+							<li class="dropdown-menu-li"><a href="微世界-微信代运营.html">微信运营</a></li>
+						</ul>
+					</li>
+					<span class="dropdown drop-span" >
+						<b href="#" class="dropdown-toggle drop-b" data-toggle="dropdown" >发布/买卖</b>
+						<ul class="dropdown-menu drop-twice">
+							<li class="dropdown-menu-li"><a href="我是卖家后台-友情套餐.html.html">出售友情链接</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-免费换链.html">发布需求链接</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-写作任务.html">发布写作任务</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-任务大厅.html">发布点击任务</a></li>
+							<li class="dropdown-menu-li"><a href="我是卖家后台-微世界.html">发布微信任务</a></li>
+						</ul>
+					</span>
+						<!-- <span class="dropdown" >
+							<a href="#" class="dropdown-toggle btn-a" data-toggle="dropdown">
+								发布/买卖
+							</a>
+							<ul class="dropdown-menu drop-twice">
+								<li class="dropdown-menu-li"><a href="我是卖家后台-友情套餐.html.html" class="drop-width">出售友情链接</a></li>
+								<li class="dropdown-menu-li"><a href="我是卖家后台-免费换链.html">发布需求链接</a></li>
+								<li class="dropdown-menu-li"><a href="我是卖家后台-写作任务.html">发布写作任务</a></li>
+								<li class="dropdown-menu-li"><a href="我是卖家后台-任务大厅.html">发布点击任务</a></li>
+								<li class="dropdown-menu-li"><a href="我是卖家后台-微世界.html">发布微信任务</a></li>
+							</ul>
+						</span> -->
+
+				</ul>
+			</div>
+		</nav>
+
+		<!--导航结束-->
+	</div>
+	<!--搜索开始-->
+		<nav class="navbar publicmartop">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="友链首页.html" style="font: 400 14px/68px '微软雅黑';color: #666666;">首页</a> >&nbsp;<a href="友链套餐.html" style="font: 400 14px/68px '微软雅黑';color: #666666;">友链套餐&nbsp;></a>  <span style="font: 400 14px/68px '微软雅黑';color: #00A1FF;">求同存异</span>
+				</div>
+				<!-- <form action="" class="navbar-form navbar-right">
+					<div class="input-group ">
+						<input type="text" name=""  placeholder="请输入文章/名称" class="form-control pull-left" style="transform: translateY(30%);"/>
+					</div>
+					<a href="#" class="btn btn-primary pull-right" style="transform: translateY(30%);border-radius:0;background-color: #00A1FF;">搜索</a>
+				</form> -->
+			</div>
+		</nav>
+
+										<!--搜索结束-->
+										<!--筛选开始-->
+		<div class="yearnav container">
+				<div class="nav-meal-nav">
+					<div>类别筛选&nbsp;&nbsp;:</div>
+					<a href="友链套餐.html">友链套餐 </a><a href="友链套餐-任性包年.html">任性包年 </a><a class="nav-meal-nav-active" href="友链套餐-求同存异.html">求同存异 </a><a href="友链套餐-免费换链.html">免费换链 </a>
+				</div>
+				<div class="nav-meal-nav">
+					<div>年期计划&nbsp;&nbsp;:</div>
+					<a class="nav-meal-nav-active" href="#">不限 </a><a href="#">半季度（3个月） </a><a href="#">一季度（6个月）</a><a href="#">一年（12个月） </a>
+				</div>
+				<div class="nav-meal-nav">
+					<div>折扣优惠&nbsp;&nbsp;:</div>
+					<a class="nav-meal-nav-active" href="#">不限 </a><a href="#">5折   </a><a href="#">5.5折</a><a href="#">6-9折 </a>
+				</div>
+				<div class="nav-meal-nav">
+					<div>百度权重&nbsp;&nbsp;:</div>
+					<a class="nav-meal-nav-active" href="#">不限 </a><a href="#">0 </a><a href="#">1</a><a href="#">2 </a>
+					<a href="#">3 </a><a href="#">4</a><a href="#">5</a><a href="#">6 </a>
+				</div>
+				<div class="nav-meal-nav">
+					<div>百度收录&nbsp;&nbsp;:</div>
+					<a class=" nav-meal-nav-active " href="#">不限 </a>
+					<a href="#">0-1万    </a><a href="#"> 1-5万    </a><a href="#">5-10万  </a>
+					<a href="#">10-50万     </a><a href="#"> 50-100万    </a><a href="#"> 100-500万 </a>
+					<div class="nav-meal-nav-box">
+						<input type="text" name=""  class="panner-search-trade-text-left" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+						<!-- <div class="tradeinput-divider"></div> -->
+						<span style="margin-right:10px;">至</span>
+						<input type="text" name=""  class="panner-search-trade-text-right" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+						<span>万</span>
+					</div>
+				</div>
+				<div class="nav-meal-nav">
+					<div>价格&nbsp;&nbsp;:</div>
+					<a class=" nav-meal-nav-active " href="#" style="padding-left: 48px;">不限 </a>
+					<a href="#">0-5元    </a><a href="#">5-10元   </a><a href="#">10-20元 </a>
+					<a href="#">20-50元     </a><a href="#"> 50-100元     </a><a href="#">100-500元 </a>
+					<div class="nav-meal-nav-box">
+						<input type="text" name=""  class="panner-search-trade-text-left" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+						<!-- <div class="tradeinput-divider"></div> -->
+						<span style="margin-right:10px;">至</span>
+						<input type="text" name=""  class="panner-search-trade-text-right" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+						<span>万</span>
+					</div>
+				</div>
+				<div class="nav-meal-nav">
+					<div>反链&nbsp;&nbsp;:</div>
+					<a class=" nav-meal-nav-active " href="#" style="padding-left: 48px;">不限 </a>
+					<a href="#">0-1万    </a><a href="#"> 1-5万    </a><a href="#">5-10万  </a>
+					<a href="#">10-50万     </a><a href="#"> 50-100万    </a><a href="#"> 100-500万 </a>
+					<div class="nav-meal-nav-box">
+						<input type="text" name=""  class="panner-search-trade-text-left" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+						<!-- <div class="tradeinput-divider"></div> -->
+						<span style="margin-right:10px;">至</span>
+						<input type="text" name=""  class="panner-search-trade-text-right" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+						<span>万</span>
+					</div>
+				</div>
+				<div class="nav-meal-nav">
+					<div>域名年龄&nbsp;&nbsp;:</div>
+					<a class=" nav-meal-nav-active " href="#">不限 </a>
+					<a href="#">1年以内     </a><a href="#"> 1-2年     </a><a href="#"> 2-5年  </a>
+					<a href="#">5-10年      </a><a href="#"> 10年以上    </a>
+					<div class="nav-meal-nav-box">
+						<input type="text" name=""  class="panner-search-trade-text-left" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+						<!-- <div class="tradeinput-divider"></div> -->
+						<span style="margin-right:10px;">至</span>
+						<input type="text" name=""  class="panner-search-trade-text-right" onkeyup="value=value.replace(/[^\d]/g,'')"/>
+						<span>年</span>
+					</div>
+				</div>
+				<div class="nav-meal-nav">
+					<div>敏感词&nbsp;&nbsp;:</div>
+					<a class=" nav-meal-nav-active " href="#">不限 </a>
+					<a href="#">接受     </a><a href="#"> 拒绝   </a>
+
+				</div>
+		</div>
+										<!--筛选结束-->
+										<!--小方块开始-->
+	<div class="container">
+		<div class="nav-meal-box">
+			<div class="nav-meal-box-rank">
+				综合排序
+			</div>
+			<div class="nav-meal-box-price">
+				价格&nbsp;↑
+			</div>
+			<div class="nav-meal-box-right">
+				共<span>6666</span>件商品  <i>1</i>/<b>100</b>
+				<button class="plantform-choose-btn1" ><</button>
+				<button class="plantform-choose-btn2">></button>
+			<!-- <a href="#" class="btn btn-lg btn-primary  nav-button">出售商品</a> -->
+			</div>
+		</div>
+	</div>
+										<!--小方块结束-->
+										<!--内容开始-->
+	<div class="common-content container" style="background-color:#ffffff;margin-bottom:20px;">
+		<div class="common-content-top">
+			<span class="common-content-top-1">友链信息</span>
+			<span class="common-content-top-2">百度收录/权重</span>
+			<span class="common-content-top-3">求购要求</span>
+			<span class="common-content-top-4">申请数量</span>
+			<span class="common-content-top-5">总价格</span>
+			<span class="common-content-top-6">操作</span>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<div class="common-content-acticle">
+			<div class="common-content-acticle-1">
+				<img src="img/nav-content-2.png">
+			</div>
+			<div class="common-content-acticle-2">
+				<div>行业需求：<span>直播行业友链 </span></div>
+				<div>链接类别：休闲娱乐</div>
+				<div>关键词：<b> 斗鱼直播</b></div>
+			</div>
+			<div class="common-content-acticle-3">
+				<div>百度收录：>= 0</div>
+				<div>百度权重：>= 0</div>
+			</div>
+			<div class="common-content-acticle-4">
+				<div>求购数量：300个</div>
+				<div>求购要求：求购直播行业相关友链，数量</br>300个，要求网站收录大于2万</div>
+			</div>
+			<div class="common-content-acticle-5">
+				申请数量：100个
+			</div>
+			<div class="common-content-acticle-6">
+				￥300.00
+			</div>
+			<a href="#" class="common-content-acticle-7">
+				立即申请
+			</a>
+		</div>
+		<!--页码-->
+
+<div aria-label="Page navigation " class="page-header-margin">
+	<span class="navigation-add">总共454546465条</span>
+		<ul class="pagination pull-right navigation-up" style="margin-right:0">
+			<li>
+				<a href="#" aria-label="Previous">
+					<span aria-hidden="true">&laquo;</span>
+				</a>
+			</li>
+			<li class="active"><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">...</a></li>
+			<li><a href="#">100</a></li>
+			<li>
+				<a href="#" aria-label="Next">
+					<span aria-hidden="true">&raquo;</span>
+				</a>
+				<em class="navigation-num">共<i>100</i>页</em>
+				<!-- <b class="navigation-net">仅显示成单过的网站</b> -->
+			</li>
+		</ul>
+</div>
+	</div>
+										<!--内容结束-->
+
+
+
+										<!--底部开始-->
+		<footer class="login-footer">
+			<div class="container">
+				<img src="img/buyer.png" class="login-footer-img"/>
+				<dl class="login-footer-info">
+					<dt> 我是买家</dt>
+					<dd><a href="#">购买友情链接</a></dd>
+					<dd><a href="#">购买链接套餐</a></dd>
+					<dd><a href="#">购买包年套餐</a></dd>
+					<dd><a href="#">买家须知</a></dd>
+				</dl>
+
+
+				<img src="img/seller.png" class="login-footer-img"/>
+				<dl class="login-footer-info">
+					<dt> 我是买家</dt>
+					<dd><a href="#">出售友情链接</a></dd>
+					<dd><a href="#">出售包年套餐</a></dd>
+					<dd><a href="#">卖家须知</a></dd>
+				</dl>
+
+				<img src="img/write.png" class="login-footer-img"/>
+				<dl class="login-footer-info">
+					<dt> 写作任务</dt>
+					<dd><a href="#">发布原创文章</a></dd>
+					<dd><a href="#">发布伪原创文章</a></dd>
+					<dd><a href="#">发布论文文章</a></dd>
+					<dd><a href="#">发布须知</a></dd>
+				</dl>
+
+				<img src="img/help.png" class="login-footer-img"/>
+				<dl class="login-footer-info">
+					<dt>SEO搜索</dt>
+					<dd><a href="#">发布SEO点击任务</a></dd>
+					<dd><a href="#">发布浏览任务</a></dd>
+					<dd><a href="#">微信关注加粉</a></dd>
+					<dd><a href="#">微信公众号代运营</a></dd>
+					<dd><a href="#">发布须知</a></dd>
+				</dl>
+
+				<div class="thumbnail">
+					<img src="img/publictwocode.png" />
+					<div class="caption">
+						微信公众号
+					</div>
+				</div>
+				<div class="thumbnail pull-right">
+					<img src="img/publictwocode.png" />
+					<div class="caption">
+						新浪微博
+					</div>
+				</div>
+				<ul class="login-footer-help">
+					<li>关于孟婆</li>
+					<li>联系方式</li>
+					<li>平台公告</li>
+					<li>帮助中心</li>
+				</ul>
+			</div>
+		</footer>
+		<footer class="login-footer-1">
+			Copyright (C) 2017 站长资源平台 All Rights Resterved
+		</footer>
+										<!--底部结束-->
+
+
+
+
+	<script>
+		$(function(){
+			$('.nav-meal-nav').find('a').click(function(){
+				$(this).attr('class','nav-meal-nav-active').siblings('a').attr('class','');
+			});
+		});
+
+
+	</script>
+	</body>
+
+</html>

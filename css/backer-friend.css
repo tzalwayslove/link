@@ -1,0 +1,74 @@
+.friendtitle{
+	height: 50px;
+	font: 400 14px/50px "微软雅黑";
+	background-color: #fff;
+	border-bottom: 1px solid #F1F1F1;
+	margin-top: 40px;
+}
+.friendtitle span{
+	padding-left: 10px;
+}
+.friendtitle input{
+	height: 30px;
+	width: 115px;
+}
+.friendtitle-a{
+	float: right;
+	font: 400 14px/30px "微软雅黑";
+	height: 30px;
+	width: 90px;
+	border-radius: 10px;
+	display: block;
+	background-color: #00A1FF;
+	color: #FFFFFF;
+	margin-top: 10px;	
+	text-align: center;
+	margin-right: 30px;
+}
+.friendtitle-a:hover{
+	color: #FFF;
+}
+.friend-bigtitle{
+	height: 50px;
+	background-color: #fff;
+	border-bottom: 1px solid #F1F1F1;	
+	font:400 14px/50px "微软雅黑";
+	color: #666666;
+	text-align: center;
+}
+.friend-content{
+	height: 90px;
+	background-color: #fff;
+	border-bottom: 1px solid #F1F1F1;	
+	font:400 14px/90px "微软雅黑";
+	color: #666666;
+	text-align: center;		
+}
+.friend-content-a1{
+	height: 30px;
+	width: 80px;
+	display: block;
+	border-radius: 10px;
+	background-color: #00A1FF;
+	color: #FFFFFF;
+	margin-top: 10px;	
+	text-align: center;		
+	margin-left: 20px;
+	float: left;
+}
+.friend-content-a1:hover{
+	color: #FFF;
+}
+.friend-content-a2{
+	height: 30px;
+	width: 80px;
+	display: block;
+	border-radius: 10px;
+	background-color: #FFF;
+	color: #00A1FF;
+	border: 1px solid #00A1FF;
+	margin-top: 10px;	
+	text-align: center;		
+	margin-left: 20px;
+	float: left;
+}

@@ -1,0 +1,47 @@
+.yearnav{
+	height: 480px;
+	background-color: #fff;
+}
+.nav-content-top-5-year{
+	padding-left: 380px;
+}
+.nav-content-content-5-year{
+	margin: 40px 0 0 232px;
+    float: left
+}
+.navigation-up{
+	margin-top: 6px;
+	margin-right: 40px;
+}
+.navigation-num{
+	font-style: normal;
+	margin-left: 22px;
+	display: inline-block;
+	margin-top: 4px;
+}
+.navigation-num i{
+	font-style: normal;
+}
+.plantform-choose-btn1{
+	width: 30px;
+	height: 26px;
+	margin-top: 12px;
+	border-radius:4px 0 0 4px ;
+	background-color: #fff;
+	border: 1px solid #dddddd;
+	color: #676767;
+	font-size: 14px;
+	outline: none;
+}
+.plantform-choose-btn2{
+	width: 30px;
+	height: 26px;
+	margin-top: 12px;
+	border-radius:0px 4px 4px 0px ;
+	background-color: #fff;
+	border: 1px solid #dddddd;
+	color: #676767;
+	font-size: 14px;
+	outline: none;
+	margin-left:-4px;
+}

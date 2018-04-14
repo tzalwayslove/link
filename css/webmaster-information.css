@@ -1,0 +1,87 @@
+.webmaster-top{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font:400 18px/50px '微软雅黑';
+    color: #FFFFFF;
+    background-color: #00a1ff;
+    margin-top:30px;
+}
+.webmaster-content{
+    height: 1765px;
+    border-top:1px solid #00a1ff;
+    background-color: #fff;
+    margin-bottom: 40px;
+}
+.webmaster-content-type{
+    height: 170px;
+    border-bottom: 1px solid #dddddd;
+}
+.webmaster-content-type img{
+    margin: 30px 20px 0 10px;
+    float: left;
+}
+.webmaster-content-type-mid{
+    float: left;
+    width: 564px;
+    height: 130px;
+    margin-top: 30px;
+}
+.webmaster-content-type-mid-title{
+    font-size: 20px;
+}
+.webmaster-content-type-mid-content{
+    color: #666;
+    text-indent: 24px;
+    font-size: 12px;
+}
+.webmaster-content-type .webmaster-content-type-mid-bottom-img{
+    float: left;
+    margin: 24px 0 0 0;
+}
+.webmaster-content-type-mid-bottom span{
+    float: left;
+    color: #666;
+    margin:24px 0 0 10px;
+    font-size: 12px;
+}
+.webmaster-content-type .webmaster-content-type-mid-bottom-img-1{
+    float: left;
+    margin: 26px 0 0 40px;
+
+}
+.navigation-num {
+    font-style: normal;
+    margin-left: 22px;
+    display: inline-block;
+    margin-top: 4px;
+}
+.pagination-num{
+    margin-top: 10px;
+    margin-left: 340px;
+    font: 400 1px/28px '微软雅黑';
+    color: #666;
+
+}
+.webmasterwx{
+    width: 90px;
+    height: 100px;
+    float: left;
+    margin: 10px 0 0 36px;
+}
+.webmasterwx span{
+    text-align: center;
+    color: #666;
+    padding-left: 6px;
+    font: 400 12px/12px "微软雅黑";
+}
+.webmaster-qq-3{
+    width: 100%;
+    height: 34px;
+    margin-top: 10px;
+}
+.webmaster-qq-3 span{
+    font: 400 16px/34px "微软雅黑";
+    color: #fb8c33;
+   text-align: center;
+}
